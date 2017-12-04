@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: 07d1e4dd39199ce458c2a4a69f7af9b7
+timeCreated: 1492088132
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: Demon(Slave)
+    100004: //RootNode
+    100006: Eye(L)
+    100008: Eye(R)001
+    100010: RigDemon(Slave)
+    100012: RigDemon(Slave)Chest
+    100014: RigDemon(Slave)DownLead(L)
+    100016: RigDemon(Slave)DownLead(R)
+    100018: RigDemon(Slave)Hand(L)Arm
+    100020: RigDemon(Slave)Hand(L)Collarbone
+    100022: RigDemon(Slave)Hand(L)Digit11
+    100024: RigDemon(Slave)Hand(L)Digit12
+    100026: RigDemon(Slave)Hand(L)Digit13
+    100028: RigDemon(Slave)Hand(L)Digit21
+    100030: RigDemon(Slave)Hand(L)Digit22
+    100032: RigDemon(Slave)Hand(L)Digit23
+    100034: RigDemon(Slave)Hand(L)Digit31
+    100036: RigDemon(Slave)Hand(L)Digit32
+    100038: RigDemon(Slave)Hand(L)Digit33
+    100040: RigDemon(Slave)Hand(L)Digit41
+    100042: RigDemon(Slave)Hand(L)Digit42
+    100044: RigDemon(Slave)Hand(L)Digit43
+    100046: RigDemon(Slave)Hand(L)Digit51
+    100048: RigDemon(Slave)Hand(L)Digit52
+    100050: RigDemon(Slave)Hand(L)Digit53
+    100052: RigDemon(Slave)Hand(L)ForeArm1
+    100054: RigDemon(Slave)Hand(L)ForeArm2
+    100056: RigDemon(Slave)Hand(L)Palm
+    100058: RigDemon(Slave)Head
+    100060: RigDemon(Slave)Hub
+    100062: RigDemon(Slave)HubBone001
+    100064: RigDemon(Slave)Jaw
+    100066: RigDemon(Slave)Leg(L)Foot
+    100068: RigDemon(Slave)Leg(L)Hoof
+    100070: RigDemon(Slave)Leg(L)Platform
+    100072: RigDemon(Slave)Leg(L)Shin
+    100074: RigDemon(Slave)Leg(L)Thigh
+    100076: RigDemon(Slave)RArmArm
+    100078: RigDemon(Slave)RArmCollarbone
+    100080: RigDemon(Slave)RArmDigit11
+    100082: RigDemon(Slave)RArmDigit12
+    100084: RigDemon(Slave)RArmDigit13
+    100086: RigDemon(Slave)RArmDigit21
+    100088: RigDemon(Slave)RArmDigit22
+    100090: RigDemon(Slave)RArmDigit23
+    100092: RigDemon(Slave)RArmDigit31
+    100094: RigDemon(Slave)RArmDigit32
+    100096: RigDemon(Slave)RArmDigit33
+    100098: RigDemon(Slave)RArmDigit41
+    100100: RigDemon(Slave)RArmDigit42
+    100102: RigDemon(Slave)RArmDigit43
+    100104: RigDemon(Slave)RArmDigit51
+    100106: RigDemon(Slave)RArmDigit52
+    100108: RigDemon(Slave)RArmDigit53
+    100110: RigDemon(Slave)RArmForeArm1
+    100112: RigDemon(Slave)RArmForeArm2
+    100114: RigDemon(Slave)RArmPalm
+    100116: RigDemon(Slave)RLegFoot
+    100118: RigDemon(Slave)RLegHoof
+    100120: RigDemon(Slave)RLegPlatform
+    100122: RigDemon(Slave)RLegShin
+    100124: RigDemon(Slave)RLegThigh
+    100126: RigDemon(Slave)Spine
+    100128: RigDemon(Slave)Spine 1
+    100130: RigDemon(Slave)UpLead(L)
+    100132: RigDemon(Slave)UpLead(R)
+    100134: Sickle(L)
+    100136: Sickle(R)
+    100138: SickleBone(L)
+    100140: SickleBone(R)
+    100142: Spikes
+    100144: Teeth
+    400000: Body
+    400002: Demon(Slave)
+    400004: //RootNode
+    400006: Eye(L)
+    400008: Eye(R)001
+    400010: RigDemon(Slave)
+    400012: RigDemon(Slave)Chest
+    400014: RigDemon(Slave)DownLead(L)
+    400016: RigDemon(Slave)DownLead(R)
+    400018: RigDemon(Slave)Hand(L)Arm
+    400020: RigDemon(Slave)Hand(L)Collarbone
+    400022: RigDemon(Slave)Hand(L)Digit11
+    400024: RigDemon(Slave)Hand(L)Digit12
+    400026: RigDemon(Slave)Hand(L)Digit13
+    400028: RigDemon(Slave)Hand(L)Digit21
+    400030: RigDemon(Slave)Hand(L)Digit22
+    400032: RigDemon(Slave)Hand(L)Digit23
+    400034: RigDemon(Slave)Hand(L)Digit31
+    400036: RigDemon(Slave)Hand(L)Digit32
+    400038: RigDemon(Slave)Hand(L)Digit33
+    400040: RigDemon(Slave)Hand(L)Digit41
+    400042: RigDemon(Slave)Hand(L)Digit42
+    400044: RigDemon(Slave)Hand(L)Digit43
+    400046: RigDemon(Slave)Hand(L)Digit51
+    400048: RigDemon(Slave)Hand(L)Digit52
+    400050: RigDemon(Slave)Hand(L)Digit53
+    400052: RigDemon(Slave)Hand(L)ForeArm1
+    400054: RigDemon(Slave)Hand(L)ForeArm2
+    400056: RigDemon(Slave)Hand(L)Palm
+    400058: RigDemon(Slave)Head
+    400060: RigDemon(Slave)Hub
+    400062: RigDemon(Slave)HubBone001
+    400064: RigDemon(Slave)Jaw
+    400066: RigDemon(Slave)Leg(L)Foot
+    400068: RigDemon(Slave)Leg(L)Hoof
+    400070: RigDemon(Slave)Leg(L)Platform
+    400072: RigDemon(Slave)Leg(L)Shin
+    400074: RigDemon(Slave)Leg(L)Thigh
+    400076: RigDemon(Slave)RArmArm
+    400078: RigDemon(Slave)RArmCollarbone
+    400080: RigDemon(Slave)RArmDigit11
+    400082: RigDemon(Slave)RArmDigit12
+    400084: RigDemon(Slave)RArmDigit13
+    400086: RigDemon(Slave)RArmDigit21
+    400088: RigDemon(Slave)RArmDigit22
+    400090: RigDemon(Slave)RArmDigit23
+    400092: RigDemon(Slave)RArmDigit31
+    400094: RigDemon(Slave)RArmDigit32
+    400096: RigDemon(Slave)RArmDigit33
+    400098: RigDemon(Slave)RArmDigit41
+    400100: RigDemon(Slave)RArmDigit42
+    400102: RigDemon(Slave)RArmDigit43
+    400104: RigDemon(Slave)RArmDigit51
+    400106: RigDemon(Slave)RArmDigit52
+    400108: RigDemon(Slave)RArmDigit53
+    400110: RigDemon(Slave)RArmForeArm1
+    400112: RigDemon(Slave)RArmForeArm2
+    400114: RigDemon(Slave)RArmPalm
+    400116: RigDemon(Slave)RLegFoot
+    400118: RigDemon(Slave)RLegHoof
+    400120: RigDemon(Slave)RLegPlatform
+    400122: RigDemon(Slave)RLegShin
+    400124: RigDemon(Slave)RLegThigh
+    400126: RigDemon(Slave)Spine
+    400128: RigDemon(Slave)Spine 1
+    400130: RigDemon(Slave)UpLead(L)
+    400132: RigDemon(Slave)UpLead(R)
+    400134: Sickle(L)
+    400136: Sickle(R)
+    400138: SickleBone(L)
+    400140: SickleBone(R)
+    400142: Spikes
+    400144: Teeth
+    4300000: Body
+    4300002: Spikes
+    4300004: Teeth
+    4300006: Eye(L)
+    4300008: Eye(R)001
+    4300010: Sickle(R)
+    4300012: Sickle(L)
+    9500000: //RootNode
+    13700000: Body
+    13700002: Eye(L)
+    13700004: Eye(R)001
+    13700006: Sickle(L)
+    13700008: Sickle(R)
+    13700010: Spikes
+    13700012: Teeth
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

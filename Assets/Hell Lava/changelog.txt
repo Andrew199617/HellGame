@@ -1,0 +1,52 @@
+~~~~~~~~~ Version 1.2.0 ~~~~~~~~~
+- Added heat distortion effect
+- Removed minor bugs
+- Compatibility with Unity 5.6.X
+~~~~~~~~~ Version 1.1.2 ~~~~~~~~~
+- Removed minor bugs
+- Removed legacy networking compatibility
+- Added new troubleshooting to documentation
+- Compatibility with Unity 5.4.2
+~~~~~~~~~ Version 1.1.1 ~~~~~~~~~
+- Removed few bugs
+- Compatibility with Unity 5.3
+~~~~~~~~~ Version 1.1.0 ~~~~~~~~~
+Changes:
+- Lava Creator (Editor) - Reference to Health script and setting component for recognition system is now global for all lavas.
+- Example scene - Changed HUD from GUI to UI.
+- FireGUI is no longer GUI. Fire screen flames was transformed to UI. 
+- Fire screen flames are no longer an animation. It's now a one flame texture distorted by shader.
+
+Fixes:
+- Hell Lava (engine) - fixed bug where lava trigger engine still was able to detect object after changed layer to ignoreTrigger or IgnoreTrigCol.
+- Hell Lava (engine) - fixed bug where for some reasons steam sound was generated at lava surface pivot point.
+- Hell Lava (Shader) - Heat distortion is now no longer dependent on texture tilling.
+- Lava Creator (Surface generator) - micro improvements.
+- Lava Creator (Editor) - fixed error where "dist" is not displayed correctly after lava loaded to creator. 
+- Lava Creator (Editor) - improved method of write data reference to health scrip (change order of variables in health script will no longer end in loosing reference).
+- Lava Creator (Editor) - improved array handle (changing size will affect only on Enter Key or loose focus).
+- Lava Creator (Editor) - improved method of return info display.
+- Lava Creator (Editor) - changed "Generate" button display.
+
+New:
+- Hell Lava - Added new environment general look.
+- Hell Lava - Added rock texture.
+- Example scene - Added info about controls displayed on HUD.
+- Example scene - Lava environment general look can be changed by pressing key.
+- Lava Creator (Editor) - Added "new" button (pressing it will create empty object on scene ready for lava surface generate).
+- Lava Creator (Editor) - Added new tool: Ignored objects (objects marked using this tool will be ignored by lava trigger engine).
+- Lava Creator (Editor) - Added new tool: Add FireUI (pressing it will create UI fire on scene).
+
+~~~~~~~~~ Version 1.0.2 ~~~~~~~~~
+- Multiplayer - Hell Lava is now compatible with Unity UNET
+- MultiLava - Adding multiple lava is now supported
+- Lava Ambient - Remove bug when player could hear lava bubbles even if lava was far away
+- Example scene - Fly.js and MouseLook improved
+- Example scene - Added example of using two lava's 
+- Documentation updated
+
+~~~~~~~~~ Version 1.0.1 ~~~~~~~~~
+- Lavafall - Removed deploy bug, when something stuck lavafall flow
+- Lavafall - Added info about current number of existing particles under lavafall managment.
+- Example scene - removed NetworkManager.js script, that left from Hell Lava test stage
+- Documentation updated

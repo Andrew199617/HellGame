@@ -1,0 +1,3321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: b2e57a2b14809e74a9aceada8e724799, type: 2}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.020259257, g: 0.0075404043, b: 0.0006960355, a: 1}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 9
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFiltering: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousColorSigma: 1
+    m_PVRFilteringAtrousNormalSigma: 1
+    m_PVRFilteringAtrousPositionSigma: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+  m_NavMeshData: {fileID: 23800000, guid: 7de92d3cd312bf34c9ddf6b9f8140a4f, type: 2}
+--- !u!1 &10905869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1607911962653014, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 10905870}
+  m_Layer: 0
+  m_Name: DemonWarriorLArmDigit51
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &10905870
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4961784796358348, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 10905869}
+  m_LocalRotation: {x: -0.125162, y: -0.026765184, z: 0.07841825, w: 0.9886702}
+  m_LocalPosition: {x: -0.13908108, y: -0.005335464, z: -0.06625561}
+  m_LocalScale: {x: 1.0000057, y: 1.0000119, z: 0.99998236}
+  m_Children:
+  - {fileID: 838923745}
+  m_Father: {fileID: 152012943}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &18730344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1749089280969704, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 18730345}
+  m_Layer: 0
+  m_Name: DemonWarriorLLid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &18730345
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4833945488390860, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 18730344}
+  m_LocalRotation: {x: 0.13869981, y: 0.39285645, z: -0.26814353, w: 0.8686341}
+  m_LocalPosition: {x: -0.0908721, y: -0.024888763, z: 0.05976325}
+  m_LocalScale: {x: 1, y: 1.0000002, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 2041062295}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &43355545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1922627578210278, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 43355546}
+  m_Layer: 0
+  m_Name: DemonWarriorRArmDigit41
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &43355546
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4435296067773710, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 43355545}
+  m_LocalRotation: {x: 0.070433915, y: -0.008586614, z: 0.12197614, w: 0.9899935}
+  m_LocalPosition: {x: -0.14349373, y: 0.005349121, z: 0.03193277}
+  m_LocalScale: {x: 0.9999945, y: 0.9999884, z: 1.0000168}
+  m_Children:
+  - {fileID: 1642897460}
+  m_Father: {fileID: 862459543}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &56416271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1667572557647614, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 56416272}
+  m_Layer: 0
+  m_Name: DemonWarriorLLeg1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &56416272
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4327895425834032, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 56416271}
+  m_LocalRotation: {x: -0.04084556, y: 0.9988775, z: 0.022879168, w: -0.0072048907}
+  m_LocalPosition: {x: -0.010226592, y: -0.0007565379, z: 0.13072851}
+  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
+  m_Children:
+  - {fileID: 1668843660}
+  m_Father: {fileID: 73838102}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &65047466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1241201752862488, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 65047467}
+  m_Layer: 0
+  m_Name: DemonWarriorLLegDigit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &65047467
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4675877372192276, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 65047466}
+  m_LocalRotation: {x: -0.03186614, y: -0.010638585, z: -0.24242218, w: 0.96958905}
+  m_LocalPosition: {x: -0.20253044, y: -0.000000009536743, z: 0}
+  m_LocalScale: {x: 1.000001, y: 0.9999992, z: 1}
+  m_Children: []
+  m_Father: {fileID: 519777432}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &73838101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1400865752314706, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 73838102}
+  m_Layer: 0
+  m_Name: DemonWarriorHub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &73838102
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4579775494055594, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 73838101}
+  m_LocalRotation: {x: 0.50000006, y: -0.4999999, z: -0.49999994, w: 0.5000001}
+  m_LocalPosition: {x: 3.1548098e-14, y: 0.7524641, z: 0.02491506}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 56416272}
+  - {fileID: 1489436788}
+  - {fileID: 335849488}
+  m_Father: {fileID: 121226609}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &88291671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1178103681000522, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 88291672}
+  - component: {fileID: 88291673}
+  m_Layer: 0
+  m_Name: DemonWarrior_Eyes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &88291672
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4112699171766926, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 88291671}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1211810769}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &88291673
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 137099434182777400, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 88291671}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f35249d81b24240409a4608722861d9d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300004, guid: 4b38f8e343eece8418051548ba754258, type: 3}
+  m_Bones:
+  - {fileID: 18730345}
+  - {fileID: 2041062295}
+  - {fileID: 1167296262}
+  - {fileID: 660831371}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1167296262}
+  m_AABB:
+    m_Center: {x: -0.19021155, y: 0.067524195, z: 0.00000032782555}
+    m_Extent: {x: 0.02253434, y: 0.02253498, z: 0.07563419}
+  m_DirtyAABB: 0
+--- !u!1 &89835551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1967743148856212, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 89835552}
+  m_Layer: 0
+  m_Name: DemonWarriorJaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &89835552
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4020180194131040, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 89835551}
+  m_LocalRotation: {x: -0.000000074817, y: 0.000000017000083, z: -0.26723832, w: 0.9636305}
+  m_LocalPosition: {x: -0.016138421, y: -0.011425171, z: -0.0000000020370499}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2041062295}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &98065026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 98065030}
+  - component: {fileID: 98065028}
+  - component: {fileID: 98065031}
+  - component: {fileID: 98065032}
+  - component: {fileID: 98065037}
+  - component: {fileID: 98065036}
+  - component: {fileID: 98065035}
+  - component: {fileID: 98065034}
+  - component: {fileID: 98065033}
+  m_Layer: 0
+  m_Name: Capsule
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!136 &98065028
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 98065026}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &98065030
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 98065026}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 242.4, y: 2.02, z: 328.21}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1538340215}
+  - {fileID: 278215158}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &98065031
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 98065026}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!143 &98065032
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 98065026}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Height: 3
+  m_Radius: 0.5
+  m_SlopeLimit: 90
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0
+  m_Center: {x: 0, y: 1.03, z: 0}
+--- !u!153 &98065033
+ConfigurableJoint:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 98065026}
+  m_ConnectedBody: {fileID: 0}
+  m_Anchor: {x: 0, y: 1, z: 0}
+  m_Axis: {x: 1, y: 0, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: 242.4, y: 3.02, z: 328.21}
+  serializedVersion: 2
+  m_SecondaryAxis: {x: 0, y: 1, z: 0}
+  m_XMotion: 2
+  m_YMotion: 2
+  m_ZMotion: 2
+  m_AngularXMotion: 2
+  m_AngularYMotion: 2
+  m_AngularZMotion: 2
+  m_LinearLimitSpring:
+    spring: 0
+    damper: 0
+  m_LinearLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_AngularXLimitSpring:
+    spring: 0
+    damper: 0
+  m_LowAngularXLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_HighAngularXLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_AngularYZLimitSpring:
+    spring: 0
+    damper: 0
+  m_AngularYLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_AngularZLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_TargetPosition: {x: 0, y: 0, z: 0}
+  m_TargetVelocity: {x: 0, y: 0, z: 0}
+  m_XDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_YDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_ZDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_TargetRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_TargetAngularVelocity: {x: 0, y: 0, z: 0}
+  m_RotationDriveMode: 0
+  m_AngularXDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_AngularYZDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_SlerpDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_ProjectionMode: 0
+  m_ProjectionDistance: 0.1
+  m_ProjectionAngle: 180
+  m_ConfiguredInWorldSpace: 0
+  m_SwapBodies: 0
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
+--- !u!114 &98065034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 98065026}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c5335f0882fe4d478883cc8c58ce906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+--- !u!195 &98065035
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 98065026}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 10
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 1
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &98065036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 98065026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7a80d520cacc042b5fe14f373d8173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MovingTurnSpeed: 360
+  m_StationaryTurnSpeed: 180
+  m_JumpPower: 12
+  m_GravityMultiplier: 2
+  m_RunCycleLegOffset: 0.2
+  m_MoveSpeedMultiplier: 20
+  m_AnimSpeedMultiplier: 1
+  m_GroundCheckDistance: 0.1
+  RotationSpeed: 90
+--- !u!95 &98065037
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 98065026}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &121226602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1720458019374254, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 121226609}
+  - component: {fileID: 121226608}
+  - component: {fileID: 121226606}
+  - component: {fileID: 121226607}
+  - component: {fileID: 121226603}
+  - component: {fileID: 121226604}
+  - component: {fileID: 121226605}
+  m_Layer: 0
+  m_Name: DemonWarrior
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &121226603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 121226602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c5335f0882fe4d478883cc8c58ce906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 98065030}
+--- !u!195 &121226604
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 121226602}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &121226605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 121226602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7a80d520cacc042b5fe14f373d8173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MovingTurnSpeed: 360
+  m_StationaryTurnSpeed: 180
+  m_JumpPower: 12
+  m_GravityMultiplier: 2
+  m_RunCycleLegOffset: 0.2
+  m_MoveSpeedMultiplier: 1
+  m_AnimSpeedMultiplier: 1
+  m_GroundCheckDistance: 0.1
+  RotationSpeed: 0
+--- !u!54 &121226606
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 121226602}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &121226607
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 121226602}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1.8
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.75, z: 0}
+--- !u!95 &121226608
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 95371671810563916, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 121226602}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 4b38f8e343eece8418051548ba754258, type: 3}
+  m_Controller: {fileID: 9100000, guid: d60e022d0c6af3a4091e9bef731843c2, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!4 &121226609
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4839501564629008, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 121226602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 224.24988, y: 0, z: 337.58588}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_Children:
+  - {fileID: 1211810769}
+  - {fileID: 73838102}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &124762723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1005069781036800, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 124762724}
+  m_Layer: 0
+  m_Name: DemonWarriorRArmDigit21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &124762724
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4777891348781888, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 124762723}
+  m_LocalRotation: {x: -0.020897254, y: -0.06596618, z: 0.064032115, w: 0.9955459}
+  m_LocalPosition: {x: -0.13470928, y: -0.003958359, z: -0.05734511}
+  m_LocalScale: {x: 0.9999941, y: 0.9999884, z: 1.000017}
+  m_Children:
+  - {fileID: 418951488}
+  m_Father: {fileID: 862459543}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &149124449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1276405159560964, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 149124450}
+  m_Layer: 0
+  m_Name: DemonWarriorLArmDigit11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &149124450
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4460936708129428, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 149124449}
+  m_LocalRotation: {x: 0.5977339, y: 0.34803256, z: 0.0012305622, w: 0.7222091}
+  m_LocalPosition: {x: -0.02285263, y: -0.012912674, z: 0.032675914}
+  m_LocalScale: {x: 1.0000119, y: 0.9999986, z: 0.99998957}
+  m_Children:
+  - {fileID: 2053878896}
+  m_Father: {fileID: 152012943}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &152012942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1975951745606998, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 152012943}
+  m_Layer: 0
+  m_Name: DemonWarriorLArmPalm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &152012943
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4250768262922880, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 152012942}
+  m_LocalRotation: {x: -0.75517714, y: 0.006961426, z: 0.04735592, w: 0.653771}
+  m_LocalPosition: {x: -0.13644329, y: -0.000000019073486, z: 0}
+  m_LocalScale: {x: 1.0000056, y: 1.0000045, z: 0.9999896}
+  m_Children:
+  - {fileID: 149124450}
+  - {fileID: 300024291}
+  - {fileID: 1654932249}
+  - {fileID: 1144638965}
+  - {fileID: 10905870}
+  m_Father: {fileID: 693363199}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &161010082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1679775068631786, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 161010083}
+  - component: {fileID: 161010084}
+  m_Layer: 0
+  m_Name: DemonWarrior_Teeth1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &161010083
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4409647681766440, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 161010082}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1211810769}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &161010084
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 137100275054490166, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 161010082}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f35249d81b24240409a4608722861d9d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300006, guid: 4b38f8e343eece8418051548ba754258, type: 3}
+  m_Bones:
+  - {fileID: 660831371}
+  - {fileID: 2041062295}
+  - {fileID: 89835552}
+  - {fileID: 1167296262}
+  - {fileID: 18730345}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1167296262}
+  m_AABB:
+    m_Center: {x: -0.18290266, y: 0.12397299, z: 0.0000009723008}
+    m_Extent: {x: 0.029246487, y: 0.03759756, z: 0.04066064}
+  m_DirtyAABB: 0
+--- !u!1 &247259255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1022682083311126, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 247259256}
+  m_Layer: 0
+  m_Name: DemonWarriorLArm21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &247259256
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4585060031811656, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 247259255}
+  m_LocalRotation: {x: -0.000059009402, y: -0.000081186525, z: -0.2682708, w: 0.96334356}
+  m_LocalPosition: {x: -0.33228382, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000023, y: 0.9999945, z: 1.0000038}
+  m_Children:
+  - {fileID: 693363199}
+  m_Father: {fileID: 501732541}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &262409736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1609582588855314, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 262409737}
+  m_Layer: 0
+  m_Name: DemonWarriorLArmDigit32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &262409737
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4270196756240614, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 262409736}
+  m_LocalRotation: {x: -0.00000022877482, y: 0.0000004481574, z: -0.0048942287, w: 0.999988}
+  m_LocalPosition: {x: -0.062269364, y: 0.00000015258789, z: -0.000000009536743}
+  m_LocalScale: {x: 1.0000055, y: 1.000011, z: 0.99998355}
+  m_Children:
+  - {fileID: 2003053184}
+  m_Father: {fileID: 1654932249}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &278215154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 278215158}
+  - component: {fileID: 278215157}
+  - component: {fileID: 278215156}
+  - component: {fileID: 278215155}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &278215155
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 278215154}
+  m_Enabled: 1
+--- !u!124 &278215156
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 278215154}
+  m_Enabled: 1
+--- !u!20 &278215157
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 278215154}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &278215158
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 278215154}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.828, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 98065030}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &300024290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1239034230242016, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 300024291}
+  m_Layer: 0
+  m_Name: DemonWarriorLArmDigit21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &300024291
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4937099582859040, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 300024290}
+  m_LocalRotation: {x: 0.020898158, y: 0.065969236, z: 0.064032026, w: 0.9955457}
+  m_LocalPosition: {x: -0.13471077, y: -0.0039580534, z: 0.057346124}
+  m_LocalScale: {x: 1.0000061, y: 1.0000112, z: 0.99998313}
+  m_Children:
+  - {fileID: 1050250360}
+  m_Father: {fileID: 152012943}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &335849487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1685649696305310, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 335849488}
+  m_Layer: 0
+  m_Name: DemonWarriorSpine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &335849488
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4019437010717388, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 335849487}
+  m_LocalRotation: {x: -7.7039725e-10, y: 0.000000029081303, z: 0.008186653, w: 0.9999665}
+  m_LocalPosition: {x: -0.08106689, y: 0, z: 4.263256e-15}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 929421420}
+  m_Father: {fileID: 73838102}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &344079236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1671391440186584, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 344079237}
+  m_Layer: 0
+  m_Name: DemonWarriorRArmDigit12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &344079237
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4228885795241332, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 344079236}
+  m_LocalRotation: {x: 0.00000761912, y: 0.00011419135, z: 0.080655806, w: 0.996742}
+  m_LocalPosition: {x: -0.06970623, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999941, y: 1.0000174, z: 0.999989}
+  m_Children:
+  - {fileID: 1379431540}
+  m_Father: {fileID: 1236140387}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &415068034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1642699517292818, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 415068035}
+  m_Layer: 0
+  m_Name: DemonWarriorRArmDigit43
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &415068035
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4745392657716482, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 415068034}
+  m_LocalRotation: {x: 0.000000037686227, y: -0.00000005933222, z: 0.0072796163, w: 0.99997354}
+  m_LocalPosition: {x: -0.046559446, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999943, y: 0.99998903, z: 1.0000168}
+  m_Children: []
+  m_Father: {fileID: 1642897460}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &418951487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1872671410908520, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 418951488}
+  m_Layer: 0
+  m_Name: DemonWarriorRArmDigit22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &418951488
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4305086416733730, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 418951487}
+  m_LocalRotation: {x: 0.0000000526132, y: 0.000000028985268, z: -0.015599365, w: 0.99987835}
+  m_LocalPosition: {x: -0.062102623, y: -0.000000076293944, z: 0}
+  m_LocalScale: {x: 0.99999493, y: 0.99998885, z: 1.0000169}
+  m_Children:
+  - {fileID: 1635053834}
+  m_Father: {fileID: 124762724}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &465115840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 465115842}
+  - component: {fileID: 465115841}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &465115841
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 465115840}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_FalloffTable:
+    m_Table[0]: 0
+    m_Table[1]: 0
+    m_Table[2]: 0
+    m_Table[3]: 0
+    m_Table[4]: 0
+    m_Table[5]: 0
+    m_Table[6]: 0
+    m_Table[7]: 0
+    m_Table[8]: 0
+    m_Table[9]: 0
+    m_Table[10]: 0
+    m_Table[11]: 0
+    m_Table[12]: 0
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &465115842
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 465115840}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &501732540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1267694500201258, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 501732541}
+  m_Layer: 0
+  m_Name: DemonWarriorLArm1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &501732541
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4588947896673250, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 501732540}
+  m_LocalRotation: {x: 0.24056259, y: 0.24403118, z: -0.086338826, w: 0.93548065}
+  m_LocalPosition: {x: -0.17170292, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000012, y: 1.0000008, z: 0.9999982}
+  m_Children:
+  - {fileID: 247259256}
+  m_Father: {fileID: 1759077495}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &508250379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1144867632687896, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 508250380}
+  - component: {fileID: 508250381}
+  m_Layer: 0
+  m_Name: DemonWarrior_Teeth2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &508250380
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4168773225133982, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 508250379}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1211810769}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &508250381
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 137143726501954120, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 508250379}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f35249d81b24240409a4608722861d9d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 4b38f8e343eece8418051548ba754258, type: 3}
+  m_Bones:
+  - {fileID: 660831371}
+  - {fileID: 2041062295}
+  - {fileID: 89835552}
+  - {fileID: 1167296262}
+  - {fileID: 18730345}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1167296262}
+  m_AABB:
+    m_Center: {x: -0.18347417, y: 0.12783056, z: 0.0000011585653}
+    m_Extent: {x: 0.036135346, y: 0.032484643, z: 0.04114444}
+  m_DirtyAABB: 0
+--- !u!1 &514168355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1255300578252198, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 514168356}
+  m_Layer: 0
+  m_Name: DemonWarriorRArm1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &514168356
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4234081401464688, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 514168355}
+  m_LocalRotation: {x: -0.24056268, y: -0.2440312, z: -0.08633885, w: 0.93548065}
+  m_LocalPosition: {x: -0.17170292, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999987, y: 0.9999993, z: 1.0000023}
+  m_Children:
+  - {fileID: 658060984}
+  m_Father: {fileID: 1829437384}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &519777431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1685055451228694, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 519777432}
+  m_Layer: 0
+  m_Name: DemonWarriorLLegAnkle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &519777432
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4545372064739316, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 519777431}
+  m_LocalRotation: {x: -0.020059815, y: -0.0010884061, z: -0.5065153, w: 0.8619969}
+  m_LocalPosition: {x: -0.19964688, y: 0, z: -0.000000009536743}
+  m_LocalScale: {x: 1.0000019, y: 0.99999815, z: 1}
+  m_Children:
+  - {fileID: 65047467}
+  m_Father: {fileID: 1668843660}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &576874340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1201897761976650, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 576874341}
+  m_Layer: 0
+  m_Name: DemonWarriorRArm22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &576874341
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4830470080637624, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 576874340}
+  m_LocalRotation: {x: 0.071788065, y: -8.022942e-10, z: -0.000000011147036, w: 0.9974199}
+  m_LocalPosition: {x: -0.13644333, y: -0.000000019073486, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_Children:
+  - {fileID: 862459543}
+  m_Father: {fileID: 658060984}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &658060983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1589662824091762, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 658060984}
+  m_Layer: 0
+  m_Name: DemonWarriorRArm21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &658060984
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4826794255912538, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 658060983}
+  m_LocalRotation: {x: 0.000059048903, y: 0.00008105222, z: -0.26827055, w: 0.9633436}
+  m_LocalPosition: {x: -0.33228382, y: 0.000000038146972, z: 0}
+  m_LocalScale: {x: 0.9999979, y: 1.0000057, z: 0.99999607}
+  m_Children:
+  - {fileID: 576874341}
+  m_Father: {fileID: 514168356}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &660831370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1729262143075526, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 660831371}
+  m_Layer: 0
+  m_Name: DemonWarriorRLid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &660831371
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4442839013205908, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 660831370}
+  m_LocalRotation: {x: -0.13870007, y: -0.3928563, z: -0.2681437, w: 0.8686341}
+  m_LocalPosition: {x: -0.09087209, y: -0.024888763, z: -0.05976326}
+  m_LocalScale: {x: 1.0000001, y: 1.0000004, z: 0.9999997}
+  m_Children: []
+  m_Father: {fileID: 2041062295}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &693363198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1702347242072546, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 693363199}
+  m_Layer: 0
+  m_Name: DemonWarriorLArm22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &693363199
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4349369577707530, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 693363198}
+  m_LocalRotation: {x: -0.07178807, y: 0.000000029190566, z: 0.000000009570809, w: 0.9974199}
+  m_LocalPosition: {x: -0.13644336, y: 0, z: -0.000000076293944}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 152012943}
+  m_Father: {fileID: 247259256}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &705324114
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1598560761328756, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 705324115}
+  m_Layer: 0
+  m_Name: DemonWarriorRArmDigit53
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &705324115
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4513239747533670, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 705324114}
+  m_LocalRotation: {x: 0.000000096858614, y: -0.000000059604986, z: -0.00000007450622,
+    w: 1}
+  m_LocalPosition: {x: -0.03595474, y: -0.000000076293944, z: 0}
+  m_LocalScale: {x: 0.9999944, y: 0.999989, z: 1.0000166}
+  m_Children: []
+  m_Father: {fileID: 2042841917}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &838923744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1725944189258914, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 838923745}
+  m_Layer: 0
+  m_Name: DemonWarriorLArmDigit52
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &838923745
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4326152633146804, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 838923744}
+  m_LocalRotation: {x: 0.00000006737312, y: -0.0000000133869875, z: 0.022523629, w: 0.9997463}
+  m_LocalPosition: {x: -0.0508218, y: 0.000000076293944, z: 0}
+  m_LocalScale: {x: 1.0000055, y: 1.0000107, z: 0.99998367}
+  m_Children:
+  - {fileID: 1558379590}
+  m_Father: {fileID: 10905870}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &862459542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1289260286723286, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 862459543}
+  m_Layer: 0
+  m_Name: DemonWarriorRArmPalm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &862459543
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4476277717852614, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 862459542}
+  m_LocalRotation: {x: 0.7551782, y: -0.006961405, z: 0.04735584, w: 0.65376973}
+  m_LocalPosition: {x: -0.13644324, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999945, y: 0.9999946, z: 1.0000106}
+  m_Children:
+  - {fileID: 1236140387}
+  - {fileID: 124762724}
+  - {fileID: 1327711282}
+  - {fileID: 43355546}
+  - {fileID: 1095725826}
+  m_Father: {fileID: 576874341}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &928875565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1480375666403310, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 928875566}
+  m_Layer: 0
+  m_Name: DemonWarriorRLegDigit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &928875566
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4504988568168898, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 928875565}
+  m_LocalRotation: {x: 0.031881705, y: 0.010574631, z: -0.24226734, w: 0.9696279}
+  m_LocalPosition: {x: -0.2025304, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000006, y: 0.9999995, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 1879945585}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &929421419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1953826898146072, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 929421420}
+  m_Layer: 0
+  m_Name: DemonWarriorSpine2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &929421420
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4521905435976268, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 929421419}
+  m_LocalRotation: {x: 0.0000000029238232, y: 0.000000025904916, z: 0.035978563, w: 0.9993526}
+  m_LocalPosition: {x: -0.106744, y: 0, z: 0.0000000125693935}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_Children:
+  - {fileID: 1580409987}
+  m_Father: {fileID: 335849488}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &939650755
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4394903634718080, guid: c63f0cca233da364e91967566c835466, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 332.63275
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394903634718080, guid: c63f0cca233da364e91967566c835466, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394903634718080, guid: c63f0cca233da364e91967566c835466, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 370.30972
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394903634718080, guid: c63f0cca233da364e91967566c835466, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394903634718080, guid: c63f0cca233da364e91967566c835466, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394903634718080, guid: c63f0cca233da364e91967566c835466, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394903634718080, guid: c63f0cca233da364e91967566c835466, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4394903634718080, guid: c63f0cca233da364e91967566c835466, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1807764381174296, guid: c63f0cca233da364e91967566c835466, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c63f0cca233da364e91967566c835466, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &955785649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1483319500436836, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 955785650}
+  m_Layer: 0
+  m_Name: DemonWarriorRArmDigit33
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &955785650
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4161726747022044, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 955785649}
+  m_LocalRotation: {x: 0.00000007450666, y: -0.00000007450622, z: 0.000000044703736,
+    w: 1}
+  m_LocalPosition: {x: -0.04815998, y: -0.000000076293944, z: 0.000000019073486}
+  m_LocalScale: {x: 0.99999446, y: 0.99998856, z: 1.0000166}
+  m_Children: []
+  m_Father: {fileID: 1263175764}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &988301849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1320383405190514, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 988301850}
+  m_Layer: 0
+  m_Name: DemonWarriorLArmDigit43
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &988301850
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4157602159318364, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 988301849}
+  m_LocalRotation: {x: 0.000000014683663, y: 0.000000029909838, z: 0.007279592, w: 0.99997354}
+  m_LocalPosition: {x: -0.046559446, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000058, y: 1.0000105, z: 0.99998343}
+  m_Children: []
+  m_Father: {fileID: 1906547158}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1050250359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1663776359370262, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1050250360}
+  m_Layer: 0
+  m_Name: DemonWarriorLArmDigit22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1050250360
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4708795315433446, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1050250359}
+  m_LocalRotation: {x: 0.00000003620195, y: -0.000000067627795, z: -0.015599257, w: 0.99987835}
+  m_LocalPosition: {x: -0.062102582, y: -0.000000076293944, z: 0.000000019073486}
+  m_LocalScale: {x: 1.0000057, y: 1.0000112, z: 0.9999834}
+  m_Children:
+  - {fileID: 1752720598}
+  m_Father: {fileID: 300024291}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1095725825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1655550268714260, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1095725826}
+  m_Layer: 0
+  m_Name: DemonWarriorRArmDigit51
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1095725826
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4647026071804000, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1095725825}
+  m_LocalRotation: {x: 0.12515756, y: 0.026764063, z: 0.07841808, w: 0.98867077}
+  m_LocalPosition: {x: -0.13907959, y: -0.0053356932, z: 0.06625438}
+  m_LocalScale: {x: 0.9999945, y: 0.9999876, z: 1.0000178}
+  m_Children:
+  - {fileID: 2042841917}
+  m_Father: {fileID: 862459543}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1144638964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1144144378086606, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1144638965}
+  m_Layer: 0
+  m_Name: DemonWarriorLArmDigit41
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1144638965
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4412975109920246, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1144638964}
+  m_LocalRotation: {x: -0.07043683, y: 0.008587134, z: 0.12197678, w: 0.9899932}
+  m_LocalPosition: {x: -0.14349549, y: 0.0053490447, z: -0.03193345}
+  m_LocalScale: {x: 1.0000057, y: 1.0000108, z: 0.9999832}
+  m_Children:
+  - {fileID: 1906547158}
+  m_Father: {fileID: 152012943}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1167296261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1768824506009760, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1167296262}
+  m_Layer: 0
+  m_Name: DemonWarriorSpine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1167296262
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4880833786338672, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1167296261}
+  m_LocalRotation: {x: -0.000006938811, y: -0.00000021475824, z: -0.30836746, w: 0.95126736}
+  m_LocalPosition: {x: -0.3007903, y: -0.013343753, z: 0.0000013622721}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+  m_Children:
+  - {fileID: 2041062295}
+  m_Father: {fileID: 1580409987}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1211810768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1486764928467600, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1211810769}
+  m_Layer: 0
+  m_Name: DemonWarrior
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1211810769
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4535716857222510, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1211810768}
+  m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2036819628}
+  - {fileID: 88291672}
+  - {fileID: 161010083}
+  - {fileID: 508250380}
+  - {fileID: 1218875332}
+  m_Father: {fileID: 121226609}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1218875331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1584225888930426, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1218875332}
+  - component: {fileID: 1218875333}
+  m_Layer: 0
+  m_Name: DemonWarrior_Tongue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1218875332
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4740685965336320, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1218875331}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1211810769}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1218875333
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 137311536128863468, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1218875331}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f35249d81b24240409a4608722861d9d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300002, guid: 4b38f8e343eece8418051548ba754258, type: 3}
+  m_Bones:
+  - {fileID: 89835552}
+  - {fileID: 2041062295}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 2041062295}
+  m_AABB:
+    m_Center: {x: -0.1133672, y: 0.040226303, z: 0.000015459023}
+    m_Extent: {x: 0.039665222, y: 0.033138968, z: 0.024474718}
+  m_DirtyAABB: 0
+--- !u!1 &1236140386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1488073952816682, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1236140387}
+  m_Layer: 0
+  m_Name: DemonWarriorRArmDigit11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1236140387
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4652230352157110, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1236140386}
+  m_LocalRotation: {x: -0.5977383, y: -0.34802562, z: 0.0012364925, w: 0.7222088}
+  m_LocalPosition: {x: -0.022852326, y: -0.012913666, z: -0.03267575}
+  m_LocalScale: {x: 0.9999883, y: 1.0000007, z: 1.0000106}
+  m_Children:
+  - {fileID: 344079237}
+  m_Father: {fileID: 862459543}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1263175763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1789780399013082, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1263175764}
+  m_Layer: 0
+  m_Name: DemonWarriorRArmDigit32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1263175764
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4194222506684950, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1263175763}
+  m_LocalRotation: {x: 0.0000001472611, y: -0.0000003583547, z: -0.0048943846, w: 0.999988}
+  m_LocalPosition: {x: -0.062269438, y: 0, z: 0.000000009536743}
+  m_LocalScale: {x: 0.999995, y: 0.9999889, z: 1.000017}
+  m_Children:
+  - {fileID: 955785650}
+  m_Father: {fileID: 1327711282}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1318949986
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 491960, guid: 366be2b244988ea46b71355871a0e449, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 402.02963
+      objectReference: {fileID: 0}
+    - target: {fileID: 491960, guid: 366be2b244988ea46b71355871a0e449, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 10.236244
+      objectReference: {fileID: 0}
+    - target: {fileID: 491960, guid: 366be2b244988ea46b71355871a0e449, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 349.13287
+      objectReference: {fileID: 0}
+    - target: {fileID: 491960, guid: 366be2b244988ea46b71355871a0e449, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 491960, guid: 366be2b244988ea46b71355871a0e449, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 491960, guid: 366be2b244988ea46b71355871a0e449, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 491960, guid: 366be2b244988ea46b71355871a0e449, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 491960, guid: 366be2b244988ea46b71355871a0e449, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 139766, guid: 366be2b244988ea46b71355871a0e449, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 366be2b244988ea46b71355871a0e449, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1327711281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1599424319673328, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1327711282}
+  m_Layer: 0
+  m_Name: DemonWarriorRArmDigit31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1327711282
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4074199021373110, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1327711281}
+  m_LocalRotation: {x: 0.011055367, y: -0.034203943, z: 0.08314961, w: 0.99588853}
+  m_LocalPosition: {x: -0.14283016, y: 0.0073657227, z: -0.013799801}
+  m_LocalScale: {x: 0.99999446, y: 0.9999886, z: 1.0000167}
+  m_Children:
+  - {fileID: 1263175764}
+  m_Father: {fileID: 862459543}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1366229762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1366229767}
+  - component: {fileID: 1366229766}
+  - component: {fileID: 1366229765}
+  - component: {fileID: 1366229764}
+  - component: {fileID: 1366229763}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1366229763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1366229762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0eca4f073d64b62988815a817dee02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookAt: {fileID: 0}
+  camTransform: {fileID: 0}
+--- !u!81 &1366229764
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1366229762}
+  m_Enabled: 1
+--- !u!124 &1366229765
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1366229762}
+  m_Enabled: 1
+--- !u!20 &1366229766
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1366229762}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &1366229767
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1366229762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 143.2, y: 26, z: 171}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1369324613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1196415429678620, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1369324614}
+  m_Layer: 0
+  m_Name: DemonWarriorLArmDigit13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1369324614
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4941162344340574, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1369324613}
+  m_LocalRotation: {x: 0.000026462816, y: 0.00010944381, z: 0.25259688, w: 0.9675716}
+  m_LocalPosition: {x: -0.046795845, y: 0, z: 0.000000076293944}
+  m_LocalScale: {x: 1.0000165, y: 0.99997246, z: 1.0000108}
+  m_Children: []
+  m_Father: {fileID: 2053878896}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1379431539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1694901615931390, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1379431540}
+  m_Layer: 0
+  m_Name: DemonWarriorRArmDigit13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1379431540
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4147552308835636, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1379431539}
+  m_LocalRotation: {x: -0.000026403748, y: -0.00010933056, z: 0.25257796, w: 0.96757656}
+  m_LocalPosition: {x: -0.046795845, y: 0.000000038146972, z: 0}
+  m_LocalScale: {x: 0.9999837, y: 1.0000279, z: 0.9999888}
+  m_Children: []
+  m_Father: {fileID: 344079237}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1489436787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1694193462803444, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1489436788}
+  m_Layer: 0
+  m_Name: DemonWarriorRLeg1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1489436788
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4730041473337100, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1489436787}
+  m_LocalRotation: {x: -0.040835857, y: 0.9988751, z: -0.022940096, w: 0.007400456}
+  m_LocalPosition: {x: -0.010226592, y: -0.0007565331, z: -0.13072851}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1773308315}
+  m_Father: {fileID: 73838102}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1538340214
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 98065030}
+    m_Modifications:
+    - target: {fileID: 400002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
+      propertyPath: m_Name
+      value: Pirate
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &1538340215 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
+  m_PrefabInternal: {fileID: 1538340214}
+--- !u!1 &1558379589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1322795253050452, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1558379590}
+  m_Layer: 0
+  m_Name: DemonWarriorLArmDigit53
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1558379590
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4464273425532766, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1558379589}
+  m_LocalRotation: {x: 0.000000022351497, y: 0.000000014901077, z: 0.000000029802152,
+    w: 1}
+  m_LocalPosition: {x: -0.03595478, y: 0.000000076293944, z: -0.000000019073486}
+  m_LocalScale: {x: 1.0000057, y: 1.000011, z: 0.99998397}
+  m_Children: []
+  m_Father: {fileID: 838923745}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1580409986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1571148867097276, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1580409987}
+  m_Layer: 0
+  m_Name: DemonWarriorChest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1580409987
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4940656606288186, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1580409986}
+  m_LocalRotation: {x: -8.66498e-10, y: 8.390209e-11, z: 0.008186648, w: 0.9999665}
+  m_LocalPosition: {x: -0.11080673, y: 0, z: -8.376747e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1759077495}
+  - {fileID: 1829437384}
+  - {fileID: 1167296262}
+  m_Father: {fileID: 929421420}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1615741431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1615741434}
+  - component: {fileID: 1615741433}
+  - component: {fileID: 1615741432}
+  - component: {fileID: 1615741437}
+  - component: {fileID: 1615741436}
+  - component: {fileID: 1615741435}
+  - component: {fileID: 1615741438}
+  - component: {fileID: 1615741440}
+  - component: {fileID: 1615741439}
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!154 &1615741432
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1615741431}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: eddf30c2292da456083d94a39ca42964, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &1615741433
+Terrain:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1615741431}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_TerrainData: {fileID: 15600000, guid: eddf30c2292da456083d94a39ca42964, type: 2}
+  m_TreeDistance: 2000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_CastShadows: 1
+  m_DrawHeightmap: 1
+  m_DrawTreesAndFoliage: 1
+  m_ReflectionProbeUsage: 1
+  m_MaterialType: 0
+  m_LegacySpecular:
+    serializedVersion: 2
+    rgba: 4286545791
+  m_LegacyShininess: 0.078125
+  m_MaterialTemplate: {fileID: 0}
+  m_BakeLightProbesForTrees: 1
+  m_ScaleInLightmap: 0.0512
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+--- !u!4 &1615741434
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1615741431}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.40746, y: -0.14963, z: -0.40752}
+  m_LocalScale: {x: 1.0016298, y: 1.0016301, z: 1.0016301}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!45 &1615741435
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1615741431}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: b2e57a2b14809e74a9aceada8e724799, type: 2}
+--- !u!45 &1615741436
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1615741431}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: b2e57a2b14809e74a9aceada8e724799, type: 2}
+--- !u!20 &1615741437
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1615741431}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 12.533765
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: 1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 2
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!114 &1615741438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1615741431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1327945023, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1615741439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1615741431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1615741440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1615741431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!1 &1635053833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1742151367163128, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1635053834}
+  m_Layer: 0
+  m_Name: DemonWarriorRArmDigit23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1635053834
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4184822009341596, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1635053833}
+  m_LocalRotation: {x: 0.00000013695225, y: -0.0000001615481, z: 0.017452488, w: 0.9998477}
+  m_LocalPosition: {x: -0.042927474, y: 0, z: 0.000000019073486}
+  m_LocalScale: {x: 0.99999464, y: 0.9999887, z: 1.000017}
+  m_Children: []
+  m_Father: {fileID: 418951488}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1642897459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1482126277593242, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1642897460}
+  m_Layer: 0
+  m_Name: DemonWarriorRArmDigit42
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1642897460
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4696155625434390, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1642897459}
+  m_LocalRotation: {x: 0.000000004167962, y: -0.00000025372483, z: -0.042317882, w: 0.9991042}
+  m_LocalPosition: {x: -0.06265621, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999434, y: 0.9999889, z: 1.0000167}
+  m_Children:
+  - {fileID: 415068035}
+  m_Father: {fileID: 43355546}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1654932248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1144402011247800, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1654932249}
+  m_Layer: 0
+  m_Name: DemonWarriorLArmDigit31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1654932249
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4404826088174278, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1654932248}
+  m_LocalRotation: {x: -0.011055959, y: 0.034205526, z: 0.083150014, w: 0.9958885}
+  m_LocalPosition: {x: -0.1428318, y: 0.0073657986, z: 0.01380001}
+  m_LocalScale: {x: 1.0000057, y: 1.0000108, z: 0.9999835}
+  m_Children:
+  - {fileID: 262409737}
+  m_Father: {fileID: 152012943}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1668843659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1457210083961512, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1668843660}
+  m_Layer: 0
+  m_Name: DemonWarriorLLeg2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1668843660
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4777022824687624, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1668843659}
+  m_LocalRotation: {x: 0.020774713, y: -0.017327905, z: 0.39492747, w: 0.9183139}
+  m_LocalPosition: {x: -0.26927906, y: -0.0000029945372, z: 0.000001335144}
+  m_LocalScale: {x: 1.0000007, y: 0.99999994, z: 0.9999996}
+  m_Children:
+  - {fileID: 519777432}
+  m_Father: {fileID: 56416272}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1752720597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1119204227608156, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1752720598}
+  m_Layer: 0
+  m_Name: DemonWarriorLArmDigit23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1752720598
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4568641772329762, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1752720597}
+  m_LocalRotation: {x: 0.0000000032884733, y: 0.00000023851098, z: 0.017452134, w: 0.9998477}
+  m_LocalPosition: {x: -0.04292751, y: 0.00000015258789, z: -0.000000009536743}
+  m_LocalScale: {x: 1.0000055, y: 1.0000111, z: 0.99998355}
+  m_Children: []
+  m_Father: {fileID: 1050250360}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1759077494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1798304526267816, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1759077495}
+  m_Layer: 0
+  m_Name: DemonWarriorLArmCollarbone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1759077495
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4060146494057096, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1759077494}
+  m_LocalRotation: {x: 0.09762437, y: 0.7407235, z: 0.11158046, w: 0.6552465}
+  m_LocalPosition: {x: -0.24698265, y: 0.017367916, z: 0.032598328}
+  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 501732541}
+  m_Father: {fileID: 1580409987}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1773308314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1113081439130034, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1773308315}
+  m_Layer: 0
+  m_Name: DemonWarriorRLeg2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1773308315
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4477300017714726, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1773308314}
+  m_LocalRotation: {x: -0.020967683, y: 0.017802123, z: 0.39526176, w: 0.9181566}
+  m_LocalPosition: {x: -0.26927906, y: -0.0000029945372, z: -0.0000012874603}
+  m_LocalScale: {x: 0.99999934, y: 0.9999999, z: 1.0000004}
+  m_Children:
+  - {fileID: 1879945585}
+  m_Father: {fileID: 1489436788}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1829437383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1928955175023012, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1829437384}
+  m_Layer: 0
+  m_Name: DemonWarriorRArmCollarbone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1829437384
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4796646179296758, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1829437383}
+  m_LocalRotation: {x: -0.09762434, y: -0.74072355, z: 0.11158051, w: 0.65524644}
+  m_LocalPosition: {x: -0.24698265, y: 0.017367916, z: -0.032598328}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1.0000002}
+  m_Children:
+  - {fileID: 514168356}
+  m_Father: {fileID: 1580409987}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1879945584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1131789311168942, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1879945585}
+  m_Layer: 0
+  m_Name: DemonWarriorRLegAnkle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1879945585
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4970762517823238, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1879945584}
+  m_LocalRotation: {x: 0.020339752, y: 0.00091193494, z: -0.5069702, w: 0.86172307}
+  m_LocalPosition: {x: -0.19964685, y: -0.000000019073486, z: 0}
+  m_LocalScale: {x: 1.0000013, y: 0.9999989, z: 1.0000001}
+  m_Children:
+  - {fileID: 928875566}
+  m_Father: {fileID: 1773308315}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1906547157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1662802089264326, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1906547158}
+  m_Layer: 0
+  m_Name: DemonWarriorLArmDigit42
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1906547158
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4332985048269790, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1906547157}
+  m_LocalRotation: {x: -0.00000024287783, y: 0.00000042789134, z: -0.042317614, w: 0.99910426}
+  m_LocalPosition: {x: -0.06265616, y: 0.000000076293944, z: 0.000000019073486}
+  m_LocalScale: {x: 1.000006, y: 1.0000105, z: 0.99998367}
+  m_Children:
+  - {fileID: 988301850}
+  m_Father: {fileID: 1144638965}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2003053183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1854236915535090, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2003053184}
+  m_Layer: 0
+  m_Name: DemonWarriorLArmDigit33
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2003053184
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4426097318595342, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2003053183}
+  m_LocalRotation: {x: 0.00000004470299, y: -0.000000029802166, z: -0.000000089406484,
+    w: 1}
+  m_LocalPosition: {x: -0.048160058, y: 0.000000076293944, z: 0.000000009536743}
+  m_LocalScale: {x: 1.0000054, y: 1.000011, z: 0.9999833}
+  m_Children: []
+  m_Father: {fileID: 262409737}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2036819627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1368310275171282, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2036819628}
+  - component: {fileID: 2036819629}
+  m_Layer: 0
+  m_Name: DemonWarrior_Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2036819628
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4228592297044768, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2036819627}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1211810769}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &2036819629
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 137751470211551468, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2036819627}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f35249d81b24240409a4608722861d9d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300008, guid: 4b38f8e343eece8418051548ba754258, type: 3}
+  m_Bones:
+  - {fileID: 89835552}
+  - {fileID: 929421420}
+  - {fileID: 1580409987}
+  - {fileID: 73838102}
+  - {fileID: 56416272}
+  - {fileID: 335849488}
+  - {fileID: 2041062295}
+  - {fileID: 1167296262}
+  - {fileID: 660831371}
+  - {fileID: 1489436788}
+  - {fileID: 514168356}
+  - {fileID: 1829437384}
+  - {fileID: 501732541}
+  - {fileID: 1759077495}
+  - {fileID: 18730345}
+  - {fileID: 247259256}
+  - {fileID: 693363199}
+  - {fileID: 152012943}
+  - {fileID: 149124450}
+  - {fileID: 300024291}
+  - {fileID: 1050250360}
+  - {fileID: 1654932249}
+  - {fileID: 1752720598}
+  - {fileID: 262409737}
+  - {fileID: 2003053184}
+  - {fileID: 1144638965}
+  - {fileID: 1906547158}
+  - {fileID: 838923745}
+  - {fileID: 988301850}
+  - {fileID: 1558379590}
+  - {fileID: 10905870}
+  - {fileID: 2053878896}
+  - {fileID: 1369324614}
+  - {fileID: 658060984}
+  - {fileID: 576874341}
+  - {fileID: 862459543}
+  - {fileID: 1236140387}
+  - {fileID: 124762724}
+  - {fileID: 418951488}
+  - {fileID: 1327711282}
+  - {fileID: 1635053834}
+  - {fileID: 1263175764}
+  - {fileID: 955785650}
+  - {fileID: 43355546}
+  - {fileID: 1642897460}
+  - {fileID: 2042841917}
+  - {fileID: 415068035}
+  - {fileID: 705324115}
+  - {fileID: 1095725826}
+  - {fileID: 344079237}
+  - {fileID: 1379431540}
+  - {fileID: 1668843660}
+  - {fileID: 519777432}
+  - {fileID: 65047467}
+  - {fileID: 1773308315}
+  - {fileID: 1879945585}
+  - {fileID: 928875566}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 73838102}
+  m_AABB:
+    m_Center: {x: -0.030017018, y: -0.027388528, z: 0.0000002682209}
+    m_Extent: {x: 0.88872576, y: 0.2446178, z: 0.8160528}
+  m_DirtyAABB: 0
+--- !u!1 &2041062294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1086844103447664, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2041062295}
+  m_Layer: 0
+  m_Name: DemonWarriorHead
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2041062295
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4665549680886886, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2041062294}
+  m_LocalRotation: {x: 0.000004545526, y: 0.0000052727773, z: -0.50059134, w: 0.86568373}
+  m_LocalPosition: {x: -0.1202771, y: 0.000000076293944, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 0.9999999}
+  m_Children:
+  - {fileID: 89835552}
+  - {fileID: 18730345}
+  - {fileID: 660831371}
+  m_Father: {fileID: 1167296262}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2042841916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1445067418301782, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2042841917}
+  m_Layer: 0
+  m_Name: DemonWarriorRArmDigit52
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2042841917
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4684626217437010, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2042841916}
+  m_LocalRotation: {x: 0.000000008455654, y: -0.000000044524572, z: 0.02252343, w: 0.9997463}
+  m_LocalPosition: {x: -0.050821837, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999945, y: 0.999989, z: 1.0000165}
+  m_Children:
+  - {fileID: 705324115}
+  m_Father: {fileID: 1095725826}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2053878895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1701039950550264, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2053878896}
+  m_Layer: 0
+  m_Name: DemonWarriorLArmDigit12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2053878896
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4876905760170880, guid: 0bed648ce7123974db6f96d6f823ac91,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2053878895}
+  m_LocalRotation: {x: -0.000007481201, y: -0.00011437324, z: 0.08065964, w: 0.9967417}
+  m_LocalPosition: {x: -0.06970623, y: -0.000000038146972, z: 0}
+  m_LocalScale: {x: 1.0000061, y: 0.99998325, z: 1.0000111}
+  m_Children:
+  - {fileID: 1369324614}
+  m_Father: {fileID: 149124450}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -1,0 +1,553 @@
+fileFormatVersion: 2
+guid: 4cabec90f4c440845bd26d00999c141a
+timeCreated: 1507905439
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: DemonWarrior
+    100002: DemonWarrior 1
+    100004: //RootNode
+    100006: DemonWarrior_Body
+    100008: DemonWarrior_Eyes
+    100010: DemonWarrior_Teeth1
+    100012: DemonWarrior_Teeth2
+    100014: DemonWarrior_Tongue
+    100016: DemonWarriorChest
+    100018: DemonWarriorHead
+    100020: DemonWarriorHub
+    100022: DemonWarriorJaw
+    100024: DemonWarriorLArm1
+    100026: DemonWarriorLArm21
+    100028: DemonWarriorLArm22
+    100030: DemonWarriorLArmCollarbone
+    100032: DemonWarriorLArmDigit11
+    100034: DemonWarriorLArmDigit12
+    100036: DemonWarriorLArmDigit13
+    100038: DemonWarriorLArmDigit21
+    100040: DemonWarriorLArmDigit22
+    100042: DemonWarriorLArmDigit23
+    100044: DemonWarriorLArmDigit31
+    100046: DemonWarriorLArmDigit32
+    100048: DemonWarriorLArmDigit33
+    100050: DemonWarriorLArmDigit41
+    100052: DemonWarriorLArmDigit42
+    100054: DemonWarriorLArmDigit43
+    100056: DemonWarriorLArmDigit51
+    100058: DemonWarriorLArmDigit52
+    100060: DemonWarriorLArmDigit53
+    100062: DemonWarriorLArmPalm
+    100064: DemonWarriorLLeg1
+    100066: DemonWarriorLLeg2
+    100068: DemonWarriorLLegAnkle
+    100070: DemonWarriorLLegDigit
+    100072: DemonWarriorLLegPlatform
+    100074: DemonWarriorLLid
+    100076: DemonWarriorRArm1
+    100078: DemonWarriorRArm21
+    100080: DemonWarriorRArm22
+    100082: DemonWarriorRArmCollarbone
+    100084: DemonWarriorRArmDigit11
+    100086: DemonWarriorRArmDigit12
+    100088: DemonWarriorRArmDigit13
+    100090: DemonWarriorRArmDigit21
+    100092: DemonWarriorRArmDigit22
+    100094: DemonWarriorRArmDigit23
+    100096: DemonWarriorRArmDigit31
+    100098: DemonWarriorRArmDigit32
+    100100: DemonWarriorRArmDigit33
+    100102: DemonWarriorRArmDigit41
+    100104: DemonWarriorRArmDigit42
+    100106: DemonWarriorRArmDigit43
+    100108: DemonWarriorRArmDigit51
+    100110: DemonWarriorRArmDigit52
+    100112: DemonWarriorRArmDigit53
+    100114: DemonWarriorRArmPalm
+    100116: DemonWarriorRLeg1
+    100118: DemonWarriorRLeg2
+    100120: DemonWarriorRLegAnkle
+    100122: DemonWarriorRLegDigit
+    100124: DemonWarriorRLegPlatform
+    100126: DemonWarriorRLid
+    100128: DemonWarriorSpine
+    100130: DemonWarriorSpine1
+    100132: DemonWarriorSpine2
+    400000: DemonWarrior
+    400002: DemonWarrior 1
+    400004: //RootNode
+    400006: DemonWarrior_Body
+    400008: DemonWarrior_Eyes
+    400010: DemonWarrior_Teeth1
+    400012: DemonWarrior_Teeth2
+    400014: DemonWarrior_Tongue
+    400016: DemonWarriorChest
+    400018: DemonWarriorHead
+    400020: DemonWarriorHub
+    400022: DemonWarriorJaw
+    400024: DemonWarriorLArm1
+    400026: DemonWarriorLArm21
+    400028: DemonWarriorLArm22
+    400030: DemonWarriorLArmCollarbone
+    400032: DemonWarriorLArmDigit11
+    400034: DemonWarriorLArmDigit12
+    400036: DemonWarriorLArmDigit13
+    400038: DemonWarriorLArmDigit21
+    400040: DemonWarriorLArmDigit22
+    400042: DemonWarriorLArmDigit23
+    400044: DemonWarriorLArmDigit31
+    400046: DemonWarriorLArmDigit32
+    400048: DemonWarriorLArmDigit33
+    400050: DemonWarriorLArmDigit41
+    400052: DemonWarriorLArmDigit42
+    400054: DemonWarriorLArmDigit43
+    400056: DemonWarriorLArmDigit51
+    400058: DemonWarriorLArmDigit52
+    400060: DemonWarriorLArmDigit53
+    400062: DemonWarriorLArmPalm
+    400064: DemonWarriorLLeg1
+    400066: DemonWarriorLLeg2
+    400068: DemonWarriorLLegAnkle
+    400070: DemonWarriorLLegDigit
+    400072: DemonWarriorLLegPlatform
+    400074: DemonWarriorLLid
+    400076: DemonWarriorRArm1
+    400078: DemonWarriorRArm21
+    400080: DemonWarriorRArm22
+    400082: DemonWarriorRArmCollarbone
+    400084: DemonWarriorRArmDigit11
+    400086: DemonWarriorRArmDigit12
+    400088: DemonWarriorRArmDigit13
+    400090: DemonWarriorRArmDigit21
+    400092: DemonWarriorRArmDigit22
+    400094: DemonWarriorRArmDigit23
+    400096: DemonWarriorRArmDigit31
+    400098: DemonWarriorRArmDigit32
+    400100: DemonWarriorRArmDigit33
+    400102: DemonWarriorRArmDigit41
+    400104: DemonWarriorRArmDigit42
+    400106: DemonWarriorRArmDigit43
+    400108: DemonWarriorRArmDigit51
+    400110: DemonWarriorRArmDigit52
+    400112: DemonWarriorRArmDigit53
+    400114: DemonWarriorRArmPalm
+    400116: DemonWarriorRLeg1
+    400118: DemonWarriorRLeg2
+    400120: DemonWarriorRLegAnkle
+    400122: DemonWarriorRLegDigit
+    400124: DemonWarriorRLegPlatform
+    400126: DemonWarriorRLid
+    400128: DemonWarriorSpine
+    400130: DemonWarriorSpine1
+    400132: DemonWarriorSpine2
+    4300000: DemonWarrior_Teeth2
+    4300002: DemonWarrior_Tongue
+    4300004: DemonWarrior_Eyes
+    4300006: DemonWarrior_Teeth1
+    4300008: DemonWarrior_Body
+    7400000: DemonWarrior(Walk)
+    7400002: DemonWarrior(Run)
+    9500000: //RootNode
+    13700000: DemonWarrior_Body
+    13700002: DemonWarrior_Eyes
+    13700004: DemonWarrior_Teeth1
+    13700006: DemonWarrior_Teeth2
+    13700008: DemonWarrior_Tongue
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: DemonWarrior(Walk)
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DemonWarrior
+        weight: 1
+      - path: DemonWarrior/DemonWarrior_Body
+        weight: 1
+      - path: DemonWarrior/DemonWarrior_Eyes
+        weight: 1
+      - path: DemonWarrior/DemonWarrior_Teeth1
+        weight: 1
+      - path: DemonWarrior/DemonWarrior_Teeth2
+        weight: 1
+      - path: DemonWarrior/DemonWarrior_Tongue
+        weight: 1
+      - path: DemonWarrior 1
+        weight: 1
+      - path: DemonWarriorHub
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorLLeg1
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorLLeg1/DemonWarriorLLeg2
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorLLeg1/DemonWarriorLLeg2/DemonWarriorLLegAnkle
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorLLeg1/DemonWarriorLLeg2/DemonWarriorLLegAnkle/DemonWarriorLLegDigit
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorRLeg1
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorRLeg1/DemonWarriorRLeg2
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorRLeg1/DemonWarriorRLeg2/DemonWarriorRLegAnkle
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorRLeg1/DemonWarriorRLeg2/DemonWarriorRLegAnkle/DemonWarriorRLegDigit
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit11
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit11/DemonWarriorLArmDigit12
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit11/DemonWarriorLArmDigit12/DemonWarriorLArmDigit13
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit21
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit21/DemonWarriorLArmDigit22
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit21/DemonWarriorLArmDigit22/DemonWarriorLArmDigit23
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit31
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit31/DemonWarriorLArmDigit32
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit31/DemonWarriorLArmDigit32/DemonWarriorLArmDigit33
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit41
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit41/DemonWarriorLArmDigit42
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit41/DemonWarriorLArmDigit42/DemonWarriorLArmDigit43
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit51
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit51/DemonWarriorLArmDigit52
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit51/DemonWarriorLArmDigit52/DemonWarriorLArmDigit53
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit11
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit11/DemonWarriorRArmDigit12
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit11/DemonWarriorRArmDigit12/DemonWarriorRArmDigit13
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit21
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit21/DemonWarriorRArmDigit22
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit21/DemonWarriorRArmDigit22/DemonWarriorRArmDigit23
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit31
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit31/DemonWarriorRArmDigit32
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit31/DemonWarriorRArmDigit32/DemonWarriorRArmDigit33
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit41
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit41/DemonWarriorRArmDigit42
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit41/DemonWarriorRArmDigit42/DemonWarriorRArmDigit43
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit51
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit51/DemonWarriorRArmDigit52
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit51/DemonWarriorRArmDigit52/DemonWarriorRArmDigit53
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorSpine
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorSpine/DemonWarriorHead
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorSpine/DemonWarriorHead/DemonWarriorJaw
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorSpine/DemonWarriorHead/DemonWarriorLLid
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorSpine/DemonWarriorHead/DemonWarriorRLid
+        weight: 1
+      - path: DemonWarriorLLegPlatform
+        weight: 1
+      - path: DemonWarriorRLegPlatform
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: DemonWarrior(Run)
+      takeName: Take 001
+      firstFrame: 39
+      lastFrame: 63
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DemonWarrior
+        weight: 1
+      - path: DemonWarrior/DemonWarrior_Body
+        weight: 1
+      - path: DemonWarrior/DemonWarrior_Eyes
+        weight: 1
+      - path: DemonWarrior/DemonWarrior_Teeth1
+        weight: 1
+      - path: DemonWarrior/DemonWarrior_Teeth2
+        weight: 1
+      - path: DemonWarrior/DemonWarrior_Tongue
+        weight: 1
+      - path: DemonWarrior 1
+        weight: 1
+      - path: DemonWarriorHub
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorLLeg1
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorLLeg1/DemonWarriorLLeg2
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorLLeg1/DemonWarriorLLeg2/DemonWarriorLLegAnkle
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorLLeg1/DemonWarriorLLeg2/DemonWarriorLLegAnkle/DemonWarriorLLegDigit
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorRLeg1
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorRLeg1/DemonWarriorRLeg2
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorRLeg1/DemonWarriorRLeg2/DemonWarriorRLegAnkle
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorRLeg1/DemonWarriorRLeg2/DemonWarriorRLegAnkle/DemonWarriorRLegDigit
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit11
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit11/DemonWarriorLArmDigit12
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit11/DemonWarriorLArmDigit12/DemonWarriorLArmDigit13
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit21
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit21/DemonWarriorLArmDigit22
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit21/DemonWarriorLArmDigit22/DemonWarriorLArmDigit23
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit31
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit31/DemonWarriorLArmDigit32
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit31/DemonWarriorLArmDigit32/DemonWarriorLArmDigit33
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit41
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit41/DemonWarriorLArmDigit42
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit41/DemonWarriorLArmDigit42/DemonWarriorLArmDigit43
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit51
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit51/DemonWarriorLArmDigit52
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorLArmCollarbone/DemonWarriorLArm1/DemonWarriorLArm21/DemonWarriorLArm22/DemonWarriorLArmPalm/DemonWarriorLArmDigit51/DemonWarriorLArmDigit52/DemonWarriorLArmDigit53
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit11
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit11/DemonWarriorRArmDigit12
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit11/DemonWarriorRArmDigit12/DemonWarriorRArmDigit13
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit21
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit21/DemonWarriorRArmDigit22
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit21/DemonWarriorRArmDigit22/DemonWarriorRArmDigit23
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit31
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit31/DemonWarriorRArmDigit32
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit31/DemonWarriorRArmDigit32/DemonWarriorRArmDigit33
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit41
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit41/DemonWarriorRArmDigit42
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit41/DemonWarriorRArmDigit42/DemonWarriorRArmDigit43
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit51
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit51/DemonWarriorRArmDigit52
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorRArmCollarbone/DemonWarriorRArm1/DemonWarriorRArm21/DemonWarriorRArm22/DemonWarriorRArmPalm/DemonWarriorRArmDigit51/DemonWarriorRArmDigit52/DemonWarriorRArmDigit53
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorSpine
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorSpine/DemonWarriorHead
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorSpine/DemonWarriorHead/DemonWarriorJaw
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorSpine/DemonWarriorHead/DemonWarriorLLid
+        weight: 1
+      - path: DemonWarriorHub/DemonWarriorSpine1/DemonWarriorSpine2/DemonWarriorChest/DemonWarriorSpine/DemonWarriorHead/DemonWarriorRLid
+        weight: 1
+      - path: DemonWarriorLLegPlatform
+        weight: 1
+      - path: DemonWarriorRLegPlatform
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
