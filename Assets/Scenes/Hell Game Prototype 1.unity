@@ -98,7 +98,7 @@ NavMeshSettings:
     agentRadius: 0.5
     agentHeight: 2
     agentSlope: 45
-    agentClimb: 0.4
+    agentClimb: 0.6
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
@@ -107,7 +107,7 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
-  m_NavMeshData: {fileID: 23800000, guid: 7de92d3cd312bf34c9ddf6b9f8140a4f, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 41440aea064d287439ae39511e3f7339, type: 2}
 --- !u!1 &10905869
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,7 +418,6 @@ GameObject:
   - component: {fileID: 98065037}
   - component: {fileID: 98065036}
   - component: {fileID: 98065035}
-  - component: {fileID: 98065034}
   - component: {fileID: 98065033}
   m_Layer: 0
   m_Name: Capsule
@@ -446,7 +445,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 98065026}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0.50850046, z: 0, w: 0.8610617}
   m_LocalPosition: {x: 242.4, y: 2.02, z: 328.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -454,7 +453,7 @@ Transform:
   - {fileID: 278215158}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -61.128, z: 0}
 --- !u!54 &98065031
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -581,18 +580,6 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &98065034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 98065026}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c5335f0882fe4d478883cc8c58ce906, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
 --- !u!195 &98065035
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -630,10 +617,11 @@ MonoBehaviour:
   m_JumpPower: 12
   m_GravityMultiplier: 2
   m_RunCycleLegOffset: 0.2
-  m_MoveSpeedMultiplier: 20
+  m_MoveSpeedMultiplier: 10
   m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: 0.1
   RotationSpeed: 90
+  IsControllable: 1
 --- !u!95 &98065037
 Animator:
   serializedVersion: 3
@@ -684,7 +672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c5335f0882fe4d478883cc8c58ce906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 98065030}
+  target: {fileID: 278215158}
 --- !u!195 &121226604
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -698,11 +686,11 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 10
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 2
+  m_Height: 1.8
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
@@ -726,6 +714,7 @@ MonoBehaviour:
   m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: 0.1
   RotationSpeed: 0
+  IsControllable: 0
 --- !u!54 &121226606
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -751,9 +740,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 1.8
+  m_Height: 1.6
   m_Direction: 1
-  m_Center: {x: 0, y: 0.75, z: 0}
+  m_Center: {x: 0, y: 0.8, z: 0}
 --- !u!95 &121226608
 Animator:
   serializedVersion: 3
@@ -780,7 +769,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 121226602}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 224.24988, y: 0, z: 337.58588}
+  m_LocalPosition: {x: 224.24988, y: -0.13, z: 337.58588}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 1211810769}
@@ -2052,7 +2041,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1211810768}
   m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -1, z: 0}
+  m_LocalPosition: {x: -0, y: -2.036, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2036819628}
@@ -2475,7 +2464,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.002960205
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2483,19 +2472,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.0115356445
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2508,6 +2497,10 @@ Prefab:
     - target: {fileID: 100002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
       propertyPath: m_Name
       value: Pirate
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}

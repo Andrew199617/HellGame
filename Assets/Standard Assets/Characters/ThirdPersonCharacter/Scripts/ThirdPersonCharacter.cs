@@ -30,6 +30,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		bool m_Crouching;
 
 	    [SerializeField] float RotationSpeed;
+	    [SerializeField] bool IsControllable;
 
 
 
@@ -47,21 +48,24 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 	    public void Update()
 	    {
-	        var move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-	        var rotation = new Vector3(Input.GetAxis("Mouse X"), 0, Input.GetAxis("Mouse Y"));
-
-            TurnRight(rotation.x * Time.deltaTime * RotationSpeed);
-	        LookDown(-rotation.z * Time.deltaTime * RotationSpeed);
-
-	        if (move.z > 0 || move.z < 0)
+	        if (IsControllable)
 	        {
-                move = Camera.main.transform.forward * move.z;
-	        }
-	        else if (move.x > 0 || move.x < 0)
-	        {
-	            move = Camera.main.transform.right * move.x;
-	        }
-            transform.position += move * m_MoveSpeedMultiplier * Time.deltaTime;
+	            var move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+	            var rotation = new Vector3(Input.GetAxis("Mouse X"), 0, Input.GetAxis("Mouse Y"));
+
+	            TurnRight(rotation.x * Time.deltaTime * RotationSpeed);
+	            LookDown(-rotation.z * Time.deltaTime * RotationSpeed);
+
+	            if (move.z > 0 || move.z < 0)
+	            {
+	                move = Camera.main.transform.forward * move.z;
+	            }
+	            else if (move.x > 0 || move.x < 0)
+	            {
+	                move = Camera.main.transform.right * move.x;
+	            }
+	            transform.position += move * m_MoveSpeedMultiplier * Time.deltaTime;
+            }
 	    }
 
 	    private void LookDown(float turnAmount)
@@ -72,7 +76,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 	        //var camera = transform.Find("Main Camera");
 
-	        transform.localRotation = newRotation;
+	        transform.rotation = newRotation;
         }
 
 	    private void TurnRight(float turnAmount)
