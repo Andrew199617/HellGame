@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace UnityStandardAssets.Characters.ThirdPerson
@@ -44,47 +45,16 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 			m_Rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
 			m_OrigGroundCheckDistance = m_GroundCheckDistance;
-		}
-
+	    }
 	    public void Update()
 	    {
 	        if (IsControllable)
 	        {
-	            var move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-	            var rotation = new Vector3(Input.GetAxis("Mouse X"), 0, Input.GetAxis("Mouse Y"));
+	            Vector3 movementVertical = Camera.main.transform.forward * Input.GetAxis("Vertical");
+	            Vector3 movementHorizontal = Camera.main.transform.right * Input.GetAxis("Horizontal");
 
-	            TurnRight(rotation.x * Time.deltaTime * RotationSpeed);
-	            LookDown(-rotation.z * Time.deltaTime * RotationSpeed);
-
-	            if (move.z > 0 || move.z < 0)
-	            {
-	                move = Camera.main.transform.forward * move.z;
-	            }
-	            else if (move.x > 0 || move.x < 0)
-	            {
-	                move = Camera.main.transform.right * move.x;
-	            }
-	            transform.position += move * m_MoveSpeedMultiplier * Time.deltaTime;
-            }
-	    }
-
-	    private void LookDown(float turnAmount)
-	    {
-	        var newRotation = transform.rotation;
-
-	        newRotation = Quaternion.Euler(newRotation.eulerAngles + new Vector3(turnAmount, 0, 0));
-
-	        //var camera = transform.Find("Main Camera");
-
-	        transform.rotation = newRotation;
-        }
-
-	    private void TurnRight(float turnAmount)
-	    {
-	        var newRotation = transform.rotation;
-	        newRotation = Quaternion.Euler(newRotation.eulerAngles + new Vector3(0, turnAmount, 0));
-	        transform.rotation = newRotation;
-
+                transform.position += (movementVertical + movementHorizontal) * m_MoveSpeedMultiplier * Time.deltaTime;
+	        }
 	    }
 
 
@@ -115,9 +85,6 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 			ScaleCapsuleForCrouching(crouch);
 			PreventStandingInLowHeadroom();
-
-			// send input and other state parameters to the animator
-			UpdateAnimator(move);
 		}
 
 
@@ -156,44 +123,6 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				{
 					m_Crouching = true;
 				}
-			}
-		}
-
-
-		void UpdateAnimator(Vector3 move)
-		{
-			// update the animator parameters
-			m_Animator.SetFloat("Forward", m_ForwardAmount, 0.1f, Time.deltaTime);
-			m_Animator.SetFloat("Turn", m_TurnAmount, 0.1f, Time.deltaTime);
-			m_Animator.SetBool("Crouch", m_Crouching);
-			m_Animator.SetBool("OnGround", m_IsGrounded);
-			if (!m_IsGrounded)
-			{
-				m_Animator.SetFloat("Jump", m_Rigidbody.velocity.y);
-			}
-
-			// calculate which leg is behind, so as to leave that leg trailing in the jump animation
-			// (This code is reliant on the specific run cycle offset in our animations,
-			// and assumes one leg passes the other at the normalized clip times of 0.0 and 0.5)
-			float runCycle =
-				Mathf.Repeat(
-					m_Animator.GetCurrentAnimatorStateInfo(0).normalizedTime + m_RunCycleLegOffset, 1);
-			float jumpLeg = (runCycle < k_Half ? 1 : -1) * m_ForwardAmount;
-			if (m_IsGrounded)
-			{
-				m_Animator.SetFloat("JumpLeg", jumpLeg);
-			}
-
-			// the anim speed multiplier allows the overall speed of walking/running to be tweaked in the inspector,
-			// which affects the movement speed because of the root motion.
-			if (m_IsGrounded && move.magnitude > 0)
-			{
-				m_Animator.speed = m_AnimSpeedMultiplier;
-			}
-			else
-			{
-				// don't use that while airborne
-				m_Animator.speed = 1;
 			}
 		}
 

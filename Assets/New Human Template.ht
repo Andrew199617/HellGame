@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1105 &110500000
+HumanTemplate:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: New Human Template
+  m_BoneTemplate:
+    Chest: DemonWarriorSpine2
+    Head: DemonWarriorHead
+    Hips: DemonWarriorHub
+    Jaw: DemonWarriorRLid
+    Left Index Distal: DemonWarriorLArmDigit13
+    Left Index Intermediate: DemonWarriorLArmDigit12
+    Left Index Proximal: DemonWarriorLArmDigit11
+    Left Little Distal: DemonWarriorLArmDigit53
+    Left Little Intermediate: DemonWarriorLArmDigit52
+    Left Little Proximal: DemonWarriorLArmDigit51
+    Left Middle Distal: DemonWarriorLArmDigit33
+    Left Middle Intermediate: DemonWarriorLArmDigit32
+    Left Middle Proximal: DemonWarriorLArmDigit31
+    Left Ring Distal: DemonWarriorLArmDigit43
+    Left Ring Intermediate: DemonWarriorLArmDigit42
+    Left Ring Proximal: DemonWarriorLArmDigit41
+    Left Thumb Distal: DemonWarriorLArmDigit23
+    Left Thumb Intermediate: DemonWarriorLArmDigit22
+    Left Thumb Proximal: DemonWarriorLArmDigit21
+    LeftFoot: DemonWarriorLLegAnkle
+    LeftHand: DemonWarriorLArmPalm
+    LeftLowerArm: DemonWarriorLArm21
+    LeftLowerLeg: DemonWarriorLLeg2
+    LeftShoulder: DemonWarriorLArmCollarbone
+    LeftToes: DemonWarriorLLegDigit
+    LeftUpperArm: DemonWarriorLArm1
+    LeftUpperLeg: DemonWarriorLLeg1
+    Neck: DemonWarriorSpine
+    Right Index Distal: DemonWarriorRArmDigit13
+    Right Index Intermediate: DemonWarriorRArmDigit12
+    Right Index Proximal: DemonWarriorRArmDigit11
+    Right Little Distal: DemonWarriorRArmDigit53
+    Right Little Intermediate: DemonWarriorRArmDigit52
+    Right Little Proximal: DemonWarriorRArmDigit51
+    Right Middle Distal: DemonWarriorRArmDigit33
+    Right Middle Intermediate: DemonWarriorRArmDigit32
+    Right Middle Proximal: DemonWarriorRArmDigit31
+    Right Ring Distal: DemonWarriorRArmDigit43
+    Right Ring Intermediate: DemonWarriorRArmDigit42
+    Right Ring Proximal: DemonWarriorRArmDigit41
+    Right Thumb Distal: DemonWarriorRArmDigit23
+    Right Thumb Intermediate: DemonWarriorRArmDigit22
+    Right Thumb Proximal: DemonWarriorRArmDigit21
+    RightEye: DemonWarriorJaw
+    RightFoot: DemonWarriorRLegAnkle
+    RightHand: DemonWarriorRArmPalm
+    RightLowerArm: DemonWarriorRArm21
+    RightLowerLeg: DemonWarriorRLeg2
+    RightShoulder: DemonWarriorRArmCollarbone
+    RightToes: DemonWarriorRLegDigit
+    RightUpperArm: DemonWarriorRArm1
+    RightUpperLeg: DemonWarriorRLeg1
+    Spine: DemonWarriorSpine1
+    UpperChest: DemonWarriorChest
