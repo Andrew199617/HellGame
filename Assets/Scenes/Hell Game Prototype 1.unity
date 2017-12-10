@@ -209,31 +209,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: eeb493e490ba849ddb7a1cf7db88df77, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.58
+      value: 0.044
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eeb493e490ba849ddb7a1cf7db88df77, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.035
+      value: -0.014
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eeb493e490ba849ddb7a1cf7db88df77, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.009
+      value: 0.56
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eeb493e490ba849ddb7a1cf7db88df77, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eeb493e490ba849ddb7a1cf7db88df77, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eeb493e490ba849ddb7a1cf7db88df77, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0.7071068
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eeb493e490ba849ddb7a1cf7db88df77, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: eeb493e490ba849ddb7a1cf7db88df77, type: 2}
       propertyPath: m_RootOrder
@@ -242,6 +242,10 @@ Prefab:
     - target: {fileID: 400000, guid: eeb493e490ba849ddb7a1cf7db88df77, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eeb493e490ba849ddb7a1cf7db88df77, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eeb493e490ba849ddb7a1cf7db88df77, type: 2}
@@ -497,7 +501,6 @@ GameObject:
   - component: {fileID: 98065030}
   - component: {fileID: 98065028}
   - component: {fileID: 98065031}
-  - component: {fileID: 98065032}
   - component: {fileID: 98065037}
   - component: {fileID: 98065036}
   - component: {fileID: 98065035}
@@ -567,23 +570,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!143 &98065032
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 98065026}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Height: 3
-  m_Radius: 0.5
-  m_SlopeLimit: 90
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0
-  m_Center: {x: 0, y: 1.03, z: 0}
 --- !u!153 &98065033
 ConfigurableJoint:
   m_ObjectHideFlags: 0
@@ -718,7 +704,7 @@ MonoBehaviour:
   m_MoveSpeedMultiplier: 10
   m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: 0.1
-  RotationSpeed: 90
+  RotationSpeed: 1000
   IsControllable: 1
 --- !u!95 &98065037
 Animator:
@@ -728,8 +714,8 @@ Animator:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 98065026}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: 80dbd398f55e14d42a4c277ad618d99b, type: 3}
+  m_Controller: {fileID: 9100000, guid: 4dcac29399e54034ca8bf23cbb840049, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1375,7 +1361,6 @@ GameObject:
   - component: {fileID: 278215156}
   - component: {fileID: 278215159}
   - component: {fileID: 278215160}
-  - component: {fileID: 278215155}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1383,20 +1368,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &278215155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 278215154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bca9ccf900ccc84c887d783321d27e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _head: {fileID: 0}
-  _ears: {fileID: 0}
-  wireframe: 0
 --- !u!124 &278215156
 Behaviour:
   m_ObjectHideFlags: 0
@@ -1464,7 +1435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1119f33139bb86a46afa6aaca523908b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotationSpeed: 15
+  RotationSpeed: 1000
 --- !u!81 &278215160
 AudioListener:
   m_ObjectHideFlags: 0

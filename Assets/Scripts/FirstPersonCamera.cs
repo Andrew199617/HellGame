@@ -9,10 +9,8 @@ public class FirstPersonCamera : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-        //Mouse X might need to be diffrent for headset.
-	    TurnRight(Input.GetAxis("Mouse X") * RotationSpeed);
 	    //Mouse Y might need to be diffrent for headset.
-        LookDown(Input.GetAxis("Mouse Y") * RotationSpeed);
+        LookDown(Input.GetAxis("Mouse Y") * RotationSpeed * Time.deltaTime);
 
 	    transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, 0);
 	}

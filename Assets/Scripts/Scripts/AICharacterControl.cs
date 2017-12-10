@@ -44,7 +44,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         /// </summary>
         private void Update()
         {
-            if(lookAtPlayer)
+            if (lookAtPlayer)
             {
                 LookAtPlayer();
             }
@@ -67,13 +67,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 myState = State.MovingToPlayer;
                 animator.SetBool("IsStraffing", false);
             }
-
             switch (myState)
             {
                 case State.Idle:
                     character.Move(Vector3.zero, false, false);
                     deltaTime += Time.deltaTime;
-                    //We need to set all the values in the animator to false so that we make sure the person is Idle.
 
                     //If enemy can attack.
                     if (deltaTime > timeBeforeCanAttack)
@@ -101,13 +99,13 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                     break;
                 case State.Attacking:
                     character.Move(Vector3.zero, false, false);
-                    animator.SetBool("IsAttacking",true);
+                    animator.SetBool("IsAttacking", true);
                     break;
                 case State.Defending:
                     break;
                 case State.CirclePlayer:
 
-                    animator.SetBool("IsStraffing",true);
+                    animator.SetBool("IsStraffing", true);
 
                     Vector3 offset = transform.position - target.position;
                     //offset = offset.normalized;
@@ -124,12 +122,32 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         }
 
+        private static void ResetAllBools(Animator animator)
+        {
+            var parameters = animator.parameters;
+            foreach (var param in parameters)
+            {
+                if (param.type == AnimatorControllerParameterType.Bool)
+                {
+                    animator.SetBool(param.name, false);
+                }
+            }
+            animator.GetBool(0);
+        }
+
         public void FinishedAttack()
         {
             var animator = GetComponent<Animator>();
             animator.SetBool("IsAttacking", false);
             //animator.SetInteger("CurrentAttack",Random.Range(1,3));
+            SetStateIdle(animator);
+        }
+
+        private void SetStateIdle(Animator animator)
+        {
             myState = State.Idle;
+            //We need to set all the values in the animator to false so that we make sure the person is Idle.
+            ResetAllBools(animator);
         }
 
         public void AttackStarted()
@@ -156,9 +174,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             transform.rotation = Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0);
         }
 
-        public void SetTarget(Transform target)
+        public void SetTarget(Transform targetParam)
         {
-            this.target = target;
+            target = targetParam;
         }
     }
 }
