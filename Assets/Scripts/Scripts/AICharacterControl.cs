@@ -56,6 +56,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
             var animator = GetComponent<Animator>();
 
+            // let Idle decide how to set State to Attacking.
             if (agent.remainingDistance < agent.stoppingDistance / 2 && myState != State.Idle)
             {
                 myState = State.Attacking;
@@ -72,6 +73,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 case State.Idle:
                     character.Move(Vector3.zero, false, false);
                     deltaTime += Time.deltaTime;
+                    //We need to set all the values in the animator to false so that we make sure the person is Idle.
+
                     //If enemy can attack.
                     if (deltaTime > timeBeforeCanAttack)
                     {
