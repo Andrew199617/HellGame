@@ -168,7 +168,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -527,11 +527,782 @@ ModelImporter:
     tangentImportMode: 3
     normalCalculationMode: 0
   importAnimation: 1
-  copyAvatar: 0
+  copyAvatar: 1
   humanDescription:
     serializedVersion: 2
-    human: []
-    skeleton: []
+    human:
+    - boneName: DemonWarriorHub
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLLeg1
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRLeg1
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLLeg2
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRLeg2
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLLegAnkle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRLegAnkle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorSpine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorSpine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorSpine
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArmCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArmCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArm1
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArm1
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArm21
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArm21
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArmPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArmPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLLegDigit
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRLegDigit
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorJaw
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRLid
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArmDigit21
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArmDigit22
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArmDigit23
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArmDigit11
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArmDigit12
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArmDigit13
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArmDigit31
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArmDigit32
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArmDigit33
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArmDigit41
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArmDigit42
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArmDigit43
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArmDigit51
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArmDigit52
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorLArmDigit53
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArmDigit21
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArmDigit22
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArmDigit23
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArmDigit11
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArmDigit12
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArmDigit13
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArmDigit31
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArmDigit32
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArmDigit33
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArmDigit41
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArmDigit42
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArmDigit43
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArmDigit51
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArmDigit52
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorRArmDigit53
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DemonWarriorChest
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: DemonWarrior(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonWarrior
+      parentName: DemonWarrior(Clone)
+      position: {x: -0, y: 0.8356036, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonWarrior_Body
+      parentName: DemonWarrior
+      position: {x: -0, y: -0.8356036, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonWarrior_Eyes
+      parentName: DemonWarrior
+      position: {x: 0.0000000023841857, y: -0.8356036, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonWarrior_Teeth1
+      parentName: DemonWarrior
+      position: {x: -0.000000028610229, y: -0.8356036, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonWarrior_Teeth2
+      parentName: DemonWarrior
+      position: {x: -0.000000035762785, y: -0.8356036, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonWarrior_Tongue
+      parentName: DemonWarrior
+      position: {x: -0, y: -0.8356036, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonWarrior 1
+      parentName: DemonWarrior(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.50000006, y: -0.5, z: -0.4999999, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonWarriorLLegPlatform
+      parentName: DemonWarrior(Clone)
+      position: {x: -0.14738844, y: 0.0000000065942865, z: 0.090780534}
+      rotation: {x: 0.50000006, y: -0.4999999, z: -0.49999994, w: 0.5000001}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonWarriorRLegPlatform
+      parentName: DemonWarrior(Clone)
+      position: {x: 0.14738843, y: 0.000000006594279, z: 0.09078057}
+      rotation: {x: 0.50000006, y: -0.4999999, z: -0.49999994, w: 0.5000001}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonWarriorHub
+      parentName: DemonWarrior(Clone)
+      position: {x: 3.1548098e-14, y: 0.6467636, z: 0.02491506}
+      rotation: {x: 0.50000006, y: -0.49999994, z: -0.49999994, w: 0.5000001}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DemonWarriorLLeg1
+      parentName: DemonWarriorHub
+      position: {x: -0.010226592, y: -0.0007565379, z: 0.13072851}
+      rotation: {x: -0.04084539, y: 0.9988775, z: 0.02287951, w: -0.007204815}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000005}
+    - name: DemonWarriorLLeg2
+      parentName: DemonWarriorLLeg1
+      position: {x: -0.26927906, y: -0.0000029945372, z: 0.000001335144}
+      rotation: {x: 0.027119247, y: -0.024369719, z: 0.27133077, w: 0.96179533}
+      scale: {x: 1.000001, y: 1, z: 0.9999994}
+    - name: DemonWarriorLLegAnkle
+      parentName: DemonWarriorLLeg2
+      position: {x: -0.19964688, y: 0, z: -0.000000009536743}
+      rotation: {x: -0.025207968, y: 0.005598176, z: -0.38932052, w: 0.9207403}
+      scale: {x: 1.0000017, y: 0.9999981, z: 1.0000001}
+    - name: DemonWarriorLLegDigit
+      parentName: DemonWarriorLLegAnkle
+      position: {x: -0.20253044, y: -0.000000009536743, z: 0}
+      rotation: {x: -0.031866, y: -0.010638587, z: -0.24242154, w: 0.9695892}
+      scale: {x: 1.0000014, y: 0.9999989, z: 1}
+    - name: DemonWarriorSpine1
+      parentName: DemonWarriorHub
+      position: {x: -0.08106689, y: 0, z: 4.263256e-15}
+      rotation: {x: -0.000003606081, y: -0.00000014901161, z: 0.008186489, w: 0.9999665}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000002}
+    - name: DemonWarriorSpine2
+      parentName: DemonWarriorSpine1
+      position: {x: -0.106744, y: 0, z: 0.0000000125693935}
+      rotation: {x: 0.000003606081, y: -0.00000014901161, z: 0.035978585, w: 0.9993526}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.99999976}
+    - name: DemonWarriorChest
+      parentName: DemonWarriorSpine2
+      position: {x: -0.11080673, y: 0, z: -8.376747e-10}
+      rotation: {x: 2.5715963e-10, y: -0.000000030117008, z: 0.00818656, w: 0.99996656}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000005}
+    - name: DemonWarriorRArmCollarbone
+      parentName: DemonWarriorChest
+      position: {x: -0.24698265, y: 0.017367916, z: -0.032598328}
+      rotation: {x: 0.09762428, y: 0.7407235, z: -0.11158054, w: -0.6552466}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000006}
+    - name: DemonWarriorRArm1
+      parentName: DemonWarriorRArmCollarbone
+      position: {x: -0.17170292, y: 0, z: 0}
+      rotation: {x: -0.20908515, y: 0.06247536, z: -0.12985308, w: 0.967222}
+      scale: {x: 0.99999917, y: 0.99999964, z: 1.0000024}
+    - name: DemonWarriorRArm21
+      parentName: DemonWarriorRArm1
+      position: {x: -0.33228382, y: 0.000000038146972, z: 0}
+      rotation: {x: 0.006664543, y: 0.023721011, z: -0.027247353, w: 0.99932504}
+      scale: {x: 0.9999983, y: 1.0000056, z: 0.9999963}
+    - name: DemonWarriorRArm22
+      parentName: DemonWarriorRArm21
+      position: {x: -0.13644333, y: -0.000000019073486, z: 0}
+      rotation: {x: 0.07178775, y: -0.000000106250795, z: -0.00000006215395, w: 0.99741995}
+      scale: {x: 0.9999999, y: 0.9999996, z: 0.99999976}
+    - name: DemonWarriorRArmPalm
+      parentName: DemonWarriorRArm22
+      position: {x: -0.13644324, y: 0, z: 0}
+      rotation: {x: 0.7551779, y: -0.006961482, z: 0.04735603, w: 0.65377015}
+      scale: {x: 0.99999416, y: 0.9999942, z: 1.0000114}
+    - name: DemonWarriorRArmDigit11
+      parentName: DemonWarriorRArmPalm
+      position: {x: -0.022852326, y: -0.012913666, z: -0.03267575}
+      rotation: {x: -0.62294334, y: -0.091005355, z: -0.03965029, w: 0.77594304}
+      scale: {x: 0.99998796, y: 1.0000014, z: 1.0000114}
+    - name: DemonWarriorRArmDigit12
+      parentName: DemonWarriorRArmDigit11
+      position: {x: -0.06970623, y: 0, z: 0}
+      rotation: {x: 0.00000762939, y: 0.000054992703, z: 0.039583486, w: 0.9992163}
+      scale: {x: 0.9999979, y: 1.0000143, z: 0.99998873}
+    - name: DemonWarriorRArmDigit13
+      parentName: DemonWarriorRArmDigit12
+      position: {x: -0.046795845, y: 0.000000038146972, z: 0}
+      rotation: {x: -0.00002640028, y: -0.00010932279, z: 0.25258735, w: 0.96757406}
+      scale: {x: 0.9999895, y: 1.000023, z: 0.9999891}
+    - name: DemonWarriorRArmDigit21
+      parentName: DemonWarriorRArmPalm
+      position: {x: -0.13470928, y: -0.003958359, z: -0.05734511}
+      rotation: {x: 0.0038303714, y: -0.3658401, z: 0.0024911452, w: 0.93066657}
+      scale: {x: 0.9999943, y: 0.99998885, z: 1.0000172}
+    - name: DemonWarriorRArmDigit22
+      parentName: DemonWarriorRArmDigit21
+      position: {x: -0.062102623, y: -0.000000076293944, z: 0}
+      rotation: {x: 0.00000024400646, y: 0.00000010430811, z: -0.015599158, w: 0.9998784}
+      scale: {x: 0.99999535, y: 0.9999892, z: 1.0000178}
+    - name: DemonWarriorRArmDigit23
+      parentName: DemonWarriorRArmDigit22
+      position: {x: -0.042927474, y: 0, z: 0.000000019073486}
+      rotation: {x: 0.000000006643118, y: -0.00000018190862, z: 0.017452337, w: 0.99984777}
+      scale: {x: 0.999995, y: 0.999989, z: 1.0000172}
+    - name: DemonWarriorRArmDigit31
+      parentName: DemonWarriorRArmPalm
+      position: {x: -0.14283016, y: 0.0073657227, z: -0.013799801}
+      rotation: {x: 0.012306029, y: -0.037830606, z: 0.05612292, w: 0.997631}
+      scale: {x: 0.9999953, y: 0.9999889, z: 1.0000174}
+    - name: DemonWarriorRArmDigit32
+      parentName: DemonWarriorRArmDigit31
+      position: {x: -0.062269438, y: 0, z: 0.000000009536743}
+      rotation: {x: 0.00000026356426, y: -0.00000045448536, z: -0.0048943907, w: 0.9999881}
+      scale: {x: 0.99999577, y: 0.99998945, z: 1.0000186}
+    - name: DemonWarriorRArmDigit33
+      parentName: DemonWarriorRArmDigit32
+      position: {x: -0.04815998, y: -0.000000076293944, z: 0.000000019073486}
+      rotation: {x: 0.0000000018079329, y: 0.0000000111848495, z: 0.000000007450696,
+        w: 1}
+      scale: {x: 0.99999464, y: 0.99998885, z: 1.000017}
+    - name: DemonWarriorRArmDigit41
+      parentName: DemonWarriorRArmPalm
+      position: {x: -0.14349373, y: 0.005349121, z: 0.03193277}
+      rotation: {x: 0.07379777, y: -0.028036257, z: 0.054735344, w: 0.9953753}
+      scale: {x: 0.999995, y: 0.9999883, z: 1.0000178}
+    - name: DemonWarriorRArmDigit42
+      parentName: DemonWarriorRArmDigit41
+      position: {x: -0.06265621, y: 0, z: 0}
+      rotation: {x: 0.00000011920926, y: -0.00000016298141, z: -0.04231787, w: 0.99910426}
+      scale: {x: 0.9999953, y: 0.999989, z: 1.0000178}
+    - name: DemonWarriorRArmDigit43
+      parentName: DemonWarriorRArmDigit42
+      position: {x: -0.046559446, y: 0, z: 0}
+      rotation: {x: 0.00000011367765, y: -0.000000014828299, z: 0.0072797034, w: 0.99997354}
+      scale: {x: 0.99999464, y: 0.9999893, z: 1.0000175}
+    - name: DemonWarriorRArmDigit51
+      parentName: DemonWarriorRArmPalm
+      position: {x: -0.13907959, y: -0.0053356932, z: 0.06625438}
+      rotation: {x: 0.1266918, y: -0.00059773785, z: 0.04413485, w: 0.99095964}
+      scale: {x: 0.99999535, y: 0.9999872, z: 1.000019}
+    - name: DemonWarriorRArmDigit52
+      parentName: DemonWarriorRArmDigit51
+      position: {x: -0.050821837, y: 0, z: 0}
+      rotation: {x: 0.00000033527613, y: -0.00000010430813, z: 0.022523314, w: 0.9997463}
+      scale: {x: 0.9999949, y: 0.99998915, z: 1.0000166}
+    - name: DemonWarriorRArmDigit53
+      parentName: DemonWarriorRArmDigit52
+      position: {x: -0.03595474, y: -0.000000076293944, z: 0}
+      rotation: {x: -0.00000010767042, y: 0.000000017330654, z: -0.000000031664936,
+        w: 1}
+      scale: {x: 0.99999523, y: 0.99998945, z: 1.0000181}
+    - name: DemonWarriorLArmCollarbone
+      parentName: DemonWarriorChest
+      position: {x: -0.24698265, y: 0.017367916, z: 0.032598328}
+      rotation: {x: 0.097624235, y: 0.74072355, z: 0.11158054, w: 0.65524656}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: DemonWarriorLArm1
+      parentName: DemonWarriorLArmCollarbone
+      position: {x: -0.17170292, y: 0, z: 0}
+      rotation: {x: 0.20908524, y: -0.06247524, z: -0.12985307, w: 0.96722203}
+      scale: {x: 1.0000015, y: 1.0000012, z: 0.9999987}
+    - name: DemonWarriorLArm21
+      parentName: DemonWarriorLArm1
+      position: {x: -0.33228382, y: 0, z: 0}
+      rotation: {x: -0.006664675, y: -0.023720782, z: -0.027247788, w: 0.99932504}
+      scale: {x: 1.0000024, y: 0.9999945, z: 1.000004}
+    - name: DemonWarriorLArm22
+      parentName: DemonWarriorLArm21
+      position: {x: -0.13644336, y: 0, z: -0.000000076293944}
+      rotation: {x: -0.07178842, y: 0.00000022148012, z: -0.0000000016831334, w: 0.99741995}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000007}
+    - name: DemonWarriorLArmPalm
+      parentName: DemonWarriorLArm22
+      position: {x: -0.13644329, y: -0.000000019073486, z: 0}
+      rotation: {x: -0.75517744, y: 0.0069611953, z: 0.04735557, w: 0.65377057}
+      scale: {x: 1.0000057, y: 1.0000052, z: 0.9999893}
+    - name: DemonWarriorLArmDigit11
+      parentName: DemonWarriorLArmPalm
+      position: {x: -0.02285263, y: -0.012912674, z: 0.032675914}
+      rotation: {x: 0.6229447, y: 0.09101248, z: -0.039655223, w: 0.7759408}
+      scale: {x: 1.0000131, y: 0.9999979, z: 0.99999046}
+    - name: DemonWarriorLArmDigit12
+      parentName: DemonWarriorLArmDigit11
+      position: {x: -0.06970623, y: -0.000000038146972, z: 0}
+      rotation: {x: -0.000007420773, y: -0.000057391782, z: 0.039588127, w: 0.9992161}
+      scale: {x: 1.0000025, y: 0.9999866, z: 1.0000106}
+    - name: DemonWarriorLArmDigit13
+      parentName: DemonWarriorLArmDigit12
+      position: {x: -0.046795845, y: 0, z: 0.000000076293944}
+      rotation: {x: 0.000026430776, y: 0.00010956398, z: 0.2525874, w: 0.9675741}
+      scale: {x: 1.0000123, y: 0.9999779, z: 1.0000117}
+    - name: DemonWarriorLArmDigit21
+      parentName: DemonWarriorLArmPalm
+      position: {x: -0.13471077, y: -0.0039580534, z: 0.057346124}
+      rotation: {x: -0.0038294466, y: 0.36584145, z: 0.0024909806, w: 0.93066597}
+      scale: {x: 1.0000066, y: 1.0000112, z: 0.9999832}
+    - name: DemonWarriorLArmDigit22
+      parentName: DemonWarriorLArmDigit21
+      position: {x: -0.062102582, y: -0.000000076293944, z: 0.000000019073486}
+      rotation: {x: -0.00000019185241, y: -0.000000052154054, z: -0.0155993095, w: 0.99987835}
+      scale: {x: 1.0000061, y: 1.0000114, z: 0.99998325}
+    - name: DemonWarriorLArmDigit23
+      parentName: DemonWarriorLArmDigit22
+      position: {x: -0.04292751, y: 0.00000015258789, z: -0.000000009536743}
+      rotation: {x: 0.00000011373286, y: 0.00000028902565, z: 0.01745229, w: 0.99984777}
+      scale: {x: 1.0000054, y: 1.0000107, z: 0.99998355}
+    - name: DemonWarriorLArmDigit31
+      parentName: DemonWarriorLArmPalm
+      position: {x: -0.1428318, y: 0.0073657986, z: 0.01380001}
+      rotation: {x: -0.012306026, y: 0.037830587, z: 0.056123424, w: 0.99763095}
+      scale: {x: 1.000006, y: 1.0000112, z: 0.99998343}
+    - name: DemonWarriorLArmDigit32
+      parentName: DemonWarriorLArmDigit31
+      position: {x: -0.062269364, y: 0.00000015258789, z: -0.000000009536743}
+      rotation: {x: -0.0000002747401, y: 0.00000042840827, z: -0.0048941197, w: 0.999988}
+      scale: {x: 1.0000056, y: 1.0000108, z: 0.9999834}
+    - name: DemonWarriorLArmDigit33
+      parentName: DemonWarriorLArmDigit32
+      position: {x: -0.048160058, y: 0.000000076293944, z: 0.000000009536743}
+      rotation: {x: 0.0000000034699497, y: 0.0000000521718, z: -0.000000015366691,
+        w: 1}
+      scale: {x: 1.0000055, y: 1.0000112, z: 0.9999833}
+    - name: DemonWarriorLArmDigit41
+      parentName: DemonWarriorLArmPalm
+      position: {x: -0.14349549, y: 0.0053490447, z: -0.03193345}
+      rotation: {x: -0.073797725, y: 0.028035773, z: 0.054736387, w: 0.9953753}
+      scale: {x: 1.000006, y: 1.0000114, z: 0.9999827}
+    - name: DemonWarriorLArmDigit42
+      parentName: DemonWarriorLArmDigit41
+      position: {x: -0.06265616, y: 0.000000076293944, z: 0.000000019073486}
+      rotation: {x: -0.00000037997955, y: 0.00000039488071, z: -0.04231757, w: 0.99910426}
+      scale: {x: 1.0000062, y: 1.000011, z: 0.9999836}
+    - name: DemonWarriorLArmDigit43
+      parentName: DemonWarriorLArmDigit42
+      position: {x: -0.046559446, y: 0, z: 0}
+      rotation: {x: 0.000000117243545, y: -0.000000019231827, z: 0.0072795236, w: 0.99997354}
+      scale: {x: 1.0000062, y: 1.0000104, z: 0.99998355}
+    - name: DemonWarriorLArmDigit51
+      parentName: DemonWarriorLArmPalm
+      position: {x: -0.13908108, y: -0.005335464, z: -0.06625561}
+      rotation: {x: -0.1266915, y: 0.0005956489, z: 0.044137392, w: 0.9909595}
+      scale: {x: 1.0000063, y: 1.0000132, z: 0.99998134}
+    - name: DemonWarriorLArmDigit52
+      parentName: DemonWarriorLArmDigit51
+      position: {x: -0.0508218, y: 0.000000076293944, z: 0}
+      rotation: {x: 0.000000059604645, y: 0.000000029802322, z: 0.022523694, w: 0.9997463}
+      scale: {x: 1.0000058, y: 1.0000111, z: 0.9999837}
+    - name: DemonWarriorLArmDigit53
+      parentName: DemonWarriorLArmDigit52
+      position: {x: -0.03595478, y: 0.000000076293944, z: -0.000000019073486}
+      rotation: {x: 0.00000010428167, y: -0.0000000023494025, z: 0.000000037252903,
+        w: 1}
+      scale: {x: 1.0000058, y: 1.000011, z: 0.99998415}
+    - name: DemonWarriorSpine
+      parentName: DemonWarriorChest
+      position: {x: -0.3007903, y: -0.013343753, z: 0.0000013622721}
+      rotation: {x: 0.00000718587, y: 0.00000008833628, z: 0.29668924, w: -0.95497406}
+      scale: {x: 1.0000015, y: 1.0000025, z: 1.0000018}
+    - name: DemonWarriorHead
+      parentName: DemonWarriorSpine
+      position: {x: -0.1202771, y: 0.000000076293944, z: 0}
+      rotation: {x: -0.000004698074, y: -0.000005660576, z: 0.5005911, w: -0.86568385}
+      scale: {x: 0.9999983, y: 1.0000017, z: 0.99999887}
+    - name: DemonWarriorJaw
+      parentName: DemonWarriorHead
+      position: {x: -0.016138421, y: -0.011425171, z: -0.0000000020370499}
+      rotation: {x: -0.00000013411045, y: 0.00000022350453, z: 0.26723856, w: -0.96363044}
+      scale: {x: 1.0000032, y: 1.0000062, z: 1.0000032}
+    - name: DemonWarriorLLid
+      parentName: DemonWarriorHead
+      position: {x: -0.0908721, y: -0.024888763, z: 0.05976325}
+      rotation: {x: 0.13870016, y: 0.39285615, z: -0.2681438, w: 0.8686341}
+      scale: {x: 0.99999887, y: 1.0000008, z: 1.0000002}
+    - name: DemonWarriorRLid
+      parentName: DemonWarriorHead
+      position: {x: -0.09087209, y: -0.024888763, z: -0.05976326}
+      rotation: {x: 0.13870002, y: 0.39285648, z: 0.26814407, w: -0.86863387}
+      scale: {x: 1.0000038, y: 1.0000045, z: 1.0000012}
+    - name: DemonWarriorRLeg1
+      parentName: DemonWarriorHub
+      position: {x: -0.010226592, y: -0.0007565331, z: -0.13072851}
+      rotation: {x: -0.04083571, y: 0.99887514, z: -0.022939771, w: 0.0074005723}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000004}
+    - name: DemonWarriorRLeg2
+      parentName: DemonWarriorRLeg1
+      position: {x: -0.26927906, y: -0.0000029945372, z: -0.0000012874603}
+      rotation: {x: -0.027346874, y: 0.024724672, z: 0.27131793, w: 0.9617835}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000007}
+    - name: DemonWarriorRLegAnkle
+      parentName: DemonWarriorRLeg2
+      position: {x: -0.19964685, y: -0.000000019073486, z: 0}
+      rotation: {x: 0.025468068, y: -0.0056515285, z: -0.38945732, w: 0.92067504}
+      scale: {x: 1.0000013, y: 0.999999, z: 1.0000004}
+    - name: DemonWarriorRLegDigit
+      parentName: DemonWarriorRLegAnkle
+      position: {x: -0.2025304, y: 0, z: 0}
+      rotation: {x: 0.03188193, y: 0.010574694, z: -0.24226688, w: 0.9696281}
+      scale: {x: 1.0000013, y: 1, z: 1.0000008}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -542,10 +1313,11 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 4b38f8e343eece8418051548ba754258,
+    type: 3}
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

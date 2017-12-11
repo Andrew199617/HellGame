@@ -10,4 +10,7 @@ EditorBuildSettings:
     guid: f8a73786e52d949cfa6f833d22dbe240
   - enabled: 1
     path: Assets/Scenes/TitleScreen.unity
-    guid: 79f77bf95aef2124e8f826a7104769fd
+    guid: 407f8c9169d772d46a4ce7287536d1cc
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 40bf6ae7d9f6a7348bc7af9f81dfeb60

@@ -1,148 +1,144 @@
 fileFormatVersion: 2
-guid: 80dbd398f55e14d42a4c277ad618d99b
-timeCreated: 1512342800
+guid: 472614a1897d84e47956a7564b80121a
+timeCreated: 1512942149
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: Akai
-    100002: //RootNode
-    100004: Head
-    100006: HeadTop_End
-    100008: Hips
-    100010: LeftArm
-    100012: LeftFoot
-    100014: LeftForeArm
-    100016: LeftHand
-    100018: LeftHandIndex1
-    100020: LeftHandIndex2
-    100022: LeftHandIndex3
-    100024: LeftHandIndex4
-    100026: LeftHandMiddle1
-    100028: LeftHandMiddle2
-    100030: LeftHandMiddle3
-    100032: LeftHandMiddle4
-    100034: LeftHandPinky1
-    100036: LeftHandPinky2
-    100038: LeftHandPinky3
-    100040: LeftHandPinky4
-    100042: LeftHandRing1
-    100044: LeftHandRing2
-    100046: LeftHandRing3
-    100048: LeftHandRing4
-    100050: LeftHandThumb1
-    100052: LeftHandThumb2
-    100054: LeftHandThumb3
-    100056: LeftHandThumb4
-    100058: LeftLeg
-    100060: LeftShoulder
-    100062: LeftToe_End
-    100064: LeftToeBase
-    100066: LeftUpLeg
-    100068: Neck
-    100070: RightArm
-    100072: RightFoot
-    100074: RightForeArm
-    100076: RightHand
-    100078: RightHandIndex1
-    100080: RightHandIndex2
-    100082: RightHandIndex3
-    100084: RightHandIndex4
-    100086: RightHandMiddle1
-    100088: RightHandMiddle2
-    100090: RightHandMiddle3
-    100092: RightHandMiddle4
-    100094: RightHandPinky1
-    100096: RightHandPinky2
-    100098: RightHandPinky3
-    100100: RightHandPinky4
-    100102: RightHandRing1
-    100104: RightHandRing2
-    100106: RightHandRing3
-    100108: RightHandRing4
-    100110: RightHandThumb1
-    100112: RightHandThumb2
-    100114: RightHandThumb3
-    100116: RightHandThumb4
-    100118: RightLeg
-    100120: RightShoulder
-    100122: RightToe_End
-    100124: RightToeBase
-    100126: RightUpLeg
-    100128: Spine
-    100130: Spine1
-    100132: Spine2
-    400000: Akai
-    400002: //RootNode
-    400004: Head
-    400006: HeadTop_End
-    400008: Hips
-    400010: LeftArm
-    400012: LeftFoot
-    400014: LeftForeArm
-    400016: LeftHand
-    400018: LeftHandIndex1
-    400020: LeftHandIndex2
-    400022: LeftHandIndex3
-    400024: LeftHandIndex4
-    400026: LeftHandMiddle1
-    400028: LeftHandMiddle2
-    400030: LeftHandMiddle3
-    400032: LeftHandMiddle4
-    400034: LeftHandPinky1
-    400036: LeftHandPinky2
-    400038: LeftHandPinky3
-    400040: LeftHandPinky4
-    400042: LeftHandRing1
-    400044: LeftHandRing2
-    400046: LeftHandRing3
-    400048: LeftHandRing4
-    400050: LeftHandThumb1
-    400052: LeftHandThumb2
-    400054: LeftHandThumb3
-    400056: LeftHandThumb4
-    400058: LeftLeg
-    400060: LeftShoulder
-    400062: LeftToe_End
-    400064: LeftToeBase
-    400066: LeftUpLeg
-    400068: Neck
-    400070: RightArm
-    400072: RightFoot
-    400074: RightForeArm
-    400076: RightHand
-    400078: RightHandIndex1
-    400080: RightHandIndex2
-    400082: RightHandIndex3
-    400084: RightHandIndex4
-    400086: RightHandMiddle1
-    400088: RightHandMiddle2
-    400090: RightHandMiddle3
-    400092: RightHandMiddle4
-    400094: RightHandPinky1
-    400096: RightHandPinky2
-    400098: RightHandPinky3
-    400100: RightHandPinky4
-    400102: RightHandRing1
-    400104: RightHandRing2
-    400106: RightHandRing3
-    400108: RightHandRing4
-    400110: RightHandThumb1
-    400112: RightHandThumb2
-    400114: RightHandThumb3
-    400116: RightHandThumb4
-    400118: RightLeg
-    400120: RightShoulder
-    400122: RightToe_End
-    400124: RightToeBase
-    400126: RightUpLeg
-    400128: Spine
-    400130: Spine1
-    400132: Spine2
-    4300000: Akai
-    7400000: Idle
+    100000: //RootNode
+    100002: Head
+    100004: HeadTop_End
+    100006: Hips
+    100008: LeftArm
+    100010: LeftFoot
+    100012: LeftForeArm
+    100014: LeftHand
+    100016: LeftHandIndex1
+    100018: LeftHandIndex2
+    100020: LeftHandIndex3
+    100022: LeftHandIndex4
+    100024: LeftHandMiddle1
+    100026: LeftHandMiddle2
+    100028: LeftHandMiddle3
+    100030: LeftHandMiddle4
+    100032: LeftHandPinky1
+    100034: LeftHandPinky2
+    100036: LeftHandPinky3
+    100038: LeftHandPinky4
+    100040: LeftHandRing1
+    100042: LeftHandRing2
+    100044: LeftHandRing3
+    100046: LeftHandRing4
+    100048: LeftHandThumb1
+    100050: LeftHandThumb2
+    100052: LeftHandThumb3
+    100054: LeftHandThumb4
+    100056: LeftLeg
+    100058: LeftShoulder
+    100060: LeftToe_End
+    100062: LeftToeBase
+    100064: LeftUpLeg
+    100066: Neck
+    100068: RightArm
+    100070: RightFoot
+    100072: RightForeArm
+    100074: RightHand
+    100076: RightHandIndex1
+    100078: RightHandIndex2
+    100080: RightHandIndex3
+    100082: RightHandIndex4
+    100084: RightHandMiddle1
+    100086: RightHandMiddle2
+    100088: RightHandMiddle3
+    100090: RightHandMiddle4
+    100092: RightHandPinky1
+    100094: RightHandPinky2
+    100096: RightHandPinky3
+    100098: RightHandPinky4
+    100100: RightHandRing1
+    100102: RightHandRing2
+    100104: RightHandRing3
+    100106: RightHandRing4
+    100108: RightHandThumb1
+    100110: RightHandThumb2
+    100112: RightHandThumb3
+    100114: RightHandThumb4
+    100116: RightLeg
+    100118: RightShoulder
+    100120: RightToe_End
+    100122: RightToeBase
+    100124: RightUpLeg
+    100126: Spine
+    100128: Spine1
+    100130: Spine2
+    400000: //RootNode
+    400002: Head
+    400004: HeadTop_End
+    400006: Hips
+    400008: LeftArm
+    400010: LeftFoot
+    400012: LeftForeArm
+    400014: LeftHand
+    400016: LeftHandIndex1
+    400018: LeftHandIndex2
+    400020: LeftHandIndex3
+    400022: LeftHandIndex4
+    400024: LeftHandMiddle1
+    400026: LeftHandMiddle2
+    400028: LeftHandMiddle3
+    400030: LeftHandMiddle4
+    400032: LeftHandPinky1
+    400034: LeftHandPinky2
+    400036: LeftHandPinky3
+    400038: LeftHandPinky4
+    400040: LeftHandRing1
+    400042: LeftHandRing2
+    400044: LeftHandRing3
+    400046: LeftHandRing4
+    400048: LeftHandThumb1
+    400050: LeftHandThumb2
+    400052: LeftHandThumb3
+    400054: LeftHandThumb4
+    400056: LeftLeg
+    400058: LeftShoulder
+    400060: LeftToe_End
+    400062: LeftToeBase
+    400064: LeftUpLeg
+    400066: Neck
+    400068: RightArm
+    400070: RightFoot
+    400072: RightForeArm
+    400074: RightHand
+    400076: RightHandIndex1
+    400078: RightHandIndex2
+    400080: RightHandIndex3
+    400082: RightHandIndex4
+    400084: RightHandMiddle1
+    400086: RightHandMiddle2
+    400088: RightHandMiddle3
+    400090: RightHandMiddle4
+    400092: RightHandPinky1
+    400094: RightHandPinky2
+    400096: RightHandPinky3
+    400098: RightHandPinky4
+    400100: RightHandRing1
+    400102: RightHandRing2
+    400104: RightHandRing3
+    400106: RightHandRing4
+    400108: RightHandThumb1
+    400110: RightHandThumb2
+    400112: RightHandThumb3
+    400114: RightHandThumb4
+    400116: RightLeg
+    400118: RightShoulder
+    400120: RightToe_End
+    400122: RightToeBase
+    400124: RightUpLeg
+    400126: Spine
+    400128: Spine1
+    400130: Spine2
+    7400000: Standing Melee Attack Horizontal
     9500000: //RootNode
-    13700000: Akai
   materials:
     importMaterials: 1
     materialName: 0
@@ -168,19 +164,19 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idle
+      name: Standing Melee Attack Horizontal
       takeName: mixamo.com
       firstFrame: 0
-      lastFrame: 150
+      lastFrame: 144
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
-      loopBlendOrientation: 0
+      loopBlendOrientation: 1
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 0
@@ -190,7 +186,28 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.25526738
+        functionName: CanHit
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.41991675
+        functionName: CantHit
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.96541786
+        functionName: FinishedAttack
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -222,7 +239,7 @@ ModelImporter:
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1
-  copyAvatar: 0
+  copyAvatar: 1
   humanDescription:
     serializedVersion: 2
     human:
@@ -1023,7 +1040,8 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 80dbd398f55e14d42a4c277ad618d99b,
+    type: 3}
   animationType: 3
   humanoidOversampling: 1
   additionalBone: 0

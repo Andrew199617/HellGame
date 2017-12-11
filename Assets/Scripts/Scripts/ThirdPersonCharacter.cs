@@ -52,13 +52,30 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 	        {
                 var moveVertical = Camera.main.transform.forward * Input.GetAxis("Vertical");
 	            var moveHorizontal = Camera.main.transform.right * Input.GetAxis("Horizontal");
-                
-	            transform.position += (moveVertical + moveHorizontal) * m_MoveSpeedMultiplier * Time.deltaTime;
+
+	            //Mouse X might need to be diffrent for headset.
+	            TurnRight(Input.GetAxis("Mouse X") * RotationSpeed);
+
+	            var animator = GetComponent<Animator>();
+	            animator.SetBool("IsWalking", moveHorizontal.magnitude > 0 || moveVertical.magnitude > 0);
+
+	            if (Input.GetKey(KeyCode.Space))
+	            {
+	                //Jump();
+	            }
+
+                transform.position += (moveVertical + moveHorizontal) * m_MoveSpeedMultiplier * Time.deltaTime;
             }
 	    }
 
+        private void TurnRight(float turnAmount)
+	    {
+	        var newRotation = Quaternion.LookRotation(transform.right, transform.up);
+	        transform.rotation = Quaternion.RotateTowards(transform.rotation, newRotation, turnAmount);
+	    }
 
-		public void Move(Vector3 move, bool crouch, bool jump)
+
+        public void Move(Vector3 move, bool crouch, bool jump)
 		{
 
 			// convert the world relative moveInput vector into a local-relative

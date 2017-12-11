@@ -13,19 +13,23 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         public ThirdPersonCharacter character { get; private set; } // the character we are controlling
         public Transform target;                                    // target to aim for
 
-        private State myState;
+        public State MyState;
         private float deltaTime = 2;
         private float timeBeforeCanAttack = 2;
+
         private bool lookAtPlayer;
+        public bool IsDead;
 
 
-        private enum State
+        public enum State
         {
             Idle,
             MovingToPlayer,
             Attacking, 
             Defending,
-            CirclePlayer
+            CirclePlayer,
+            IsHit,
+            IsDead
         }
 
         private void Start()
@@ -36,7 +40,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 	        agent.updateRotation = false;
 	        agent.updatePosition = true;
-            myState = State.MovingToPlayer;
+            MyState = State.MovingToPlayer;
         }
 
         /// <summary>
@@ -44,31 +48,40 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         /// </summary>
         private void Update()
         {
-            if(lookAtPlayer)
+
+            if(lookAtPlayer && !IsDead)
             {
                 LookAtPlayer();
             }
 
-            if (target != null)
+            if (target != null && agent.enabled)
             {
                 agent.SetDestination(target.position);
             }
 
             var animator = GetComponent<Animator>();
 
-            // let Idle decide how to set State to Attacking.
-            if (agent.remainingDistance < agent.stoppingDistance / 2 && myState != State.Idle)
+            if (agent.enabled)
             {
-                myState = State.Attacking;
-                animator.SetBool("IsStraffing", false);
-            }
-            else if (agent.remainingDistance > agent.stoppingDistance)
-            {
-                myState = State.MovingToPlayer;
-                animator.SetBool("IsStraffing", false);
+                // let Idle decide how to set State to Attacking.
+                //If were close enough to attack.
+                if (agent.remainingDistance < agent.stoppingDistance / 2 && MyState != State.Attacking &&
+                    !IsDead && MyState != State.IsHit)
+                {
+                    MyState = State.Idle;
+                    animator.SetBool("IsStraffing", false);
+                }
+                //Too Far from player walk to player.
+                //Needs check to see if we can see the player
+                else if (agent.remainingDistance > agent.stoppingDistance &&
+                         !IsDead)
+                {
+                    MyState = State.MovingToPlayer;
+                    animator.SetBool("IsStraffing", false);
+                }
             }
 
-            switch (myState)
+            switch (MyState)
             {
                 case State.Idle:
                     character.Move(Vector3.zero, false, false);
@@ -79,9 +92,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                     if (deltaTime > timeBeforeCanAttack)
                     {
                         //If enemy is close enough to attack.
-                        if (agent.remainingDistance < agent.stoppingDistance / 2)
+                        if (agent.enabled && agent.remainingDistance < agent.stoppingDistance / 2)
                         {
-                            myState = State.Attacking;
+                            MyState = State.Attacking;
                             deltaTime = 0;
                         }
                     }
@@ -96,14 +109,27 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                     {
                         character.Move(Vector3.zero, false, false);
                         animator.SetBool("IsWalking", false);
-                        myState = State.CirclePlayer;
+                        MyState = State.CirclePlayer;
                     }
                     break;
                 case State.Attacking:
-                    character.Move(Vector3.zero, false, false);
+
+                    SetFalseAllBools(animator);
                     animator.SetBool("IsAttacking",true);
+
                     break;
-                case State.Defending:
+                case State.IsHit:
+
+                    SetFalseAllBools(animator);
+                    animator.SetBool("IsHit", true);
+
+                    break;
+                case State.IsDead:
+
+                    SetFalseAllBools(animator);
+                    agent.enabled = false;
+                    animator.SetBool("IsDead", true);
+
                     break;
                 case State.CirclePlayer:
 
@@ -124,12 +150,30 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         }
 
+        private void SetFalseAllBools(Animator animator)
+        {
+            foreach (var param in animator.parameters)
+            {
+                if (param.type == AnimatorControllerParameterType.Bool)
+                {
+                    animator.SetBool(param.name, false);
+                }
+            }
+        }
+
         public void FinishedAttack()
         {
             var animator = GetComponent<Animator>();
             animator.SetBool("IsAttacking", false);
             //animator.SetInteger("CurrentAttack",Random.Range(1,3));
-            myState = State.Idle;
+            MyState = State.Idle;
+        }
+
+        public void DoneGettingHit()
+        {
+            var animator = GetComponent<Animator>();
+            animator.SetBool("IsHit", false);
+            MyState = State.Idle;
         }
 
         public void AttackStarted()
